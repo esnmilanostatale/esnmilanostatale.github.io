@@ -1,0 +1,50 @@
+# name of the software
+name: Milano Statale Wiki
+description: Official Wiki for ESN Milano Statale
+
+#project:
+    #version: 0.1.0
+    #download_url: https://github.com/allejo/jekyll-docs-theme/releases
+
+license:
+    software: MIT License
+    software_url: http://opensource.org/licenses/MIT
+
+    docs: CC BY 3.0
+    docs_url: http://creativecommons.org/licenses/by/3.0/
+
+links:
+#    header:
+#      - title: GitHub
+#        url: https://github.com/allejo/jekyll-docs-theme
+    footer-enabled: false
+#    footer:
+#      - title: GitHub
+#        url: https://github.com/allejo/jekyll-docs-theme
+#      - title: Issues
+#        url: https://github.com/allejo/jekyll-docs-theme/issues?state=open
+
+ui:
+    header:
+        color1: "#673051"
+        color2: "#080331"
+        trianglify: false
+
+social:
+    website:
+        enabled: true
+        url: https://www.esnmilanostatale.it/
+    facebook:
+        enabled: true
+        profileUrl: https://www.facebook.com/milanostatale.esn/
+    instagram:
+        enabled: true
+        profileUrl: https://www.instagram.com/esnmilanostatale/
+# analytics:
+#    google: UA-123456-1
+
+# Build settings
+markdown: kramdown
+exclude:
+    - Gemfile
+    - Gemfile.lock

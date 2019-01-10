@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+
+.esncyan {
+    color: #00aef0;
+}
+
+.esnmagenta {
+    color: #ed008c;
+}
+.esngreen {
+    color: #7ac143;
+}
+.esnorange {
+    color: #f47b20;
+}
+ 
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 150%;
+}
+
+a {
+color: #00AEEF;
+}
+
+strong {
+color: #2E3192;
+}
+
+
+.leadLogo {
+  width:200px;
+}
+
+.socialIcon {
+  color: #777;
+}
+
+.em-small {
+   font-size: 60%;
+   padding-left: 35px;
+}
+
+.wgRef {
+    border-bottom:1px solid #2E3192;
+    position: relative;
+    top: -15px;
+    font-size: 85%;
+}
+.brRef {
+    border-bottom:1px solid #7ac143;
+    position: relative;
+    top: -15px;
+    font-size: 85%;
+}
+cite {
+    display: block;
+    font-size: small;
+    border-left: 3px solid #00aef0;
+    padding: 5px;
+    margin-bottom: 5px;
+}
