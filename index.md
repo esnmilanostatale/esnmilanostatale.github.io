@@ -55,8 +55,17 @@ Quando uno studente Erasmus viene a richiedere la ESNcard va iscritto tramite <a
 managESN è il sistema di gestione di tutti gli iscritti a ESN Milano Statale, di alcuni eventi organizzati dalla sezione e di [....]. Può essere utilizzato come strumento di ricerca degli studenti Erasmus già iscritti e in possesso di una ESNcard
 
 ## ESN Registro
-Il registro di ESN Milano Statale tiene traccia di tutte le fatture emesse durante il turno ufficio e dei soldi presenti in cassa ad ogni turno. Il registro va **obbligatoriamente** compilato a fine turno ufficio inserendo **tutte** le fatture rilasciate durante il turno con numero di fattura e causale. [A fine procedura?]
+Il registro di ESN Milano Statale tiene traccia di tutte le fatture emesse durante il turno ufficio e dei soldi presenti in cassa ad ogni turno. Il registro va **obbligatoriamente** compilato a fine turno ufficio inserendo **tutte** le fatture rilasciate durante il turno con numero di fattura e causale:
 
+1. Nella sezione tesoreria cliccare su **lista movimenti** e cliccare sulla data dell’ultima apertura dell’ufficio per vedere se i soldi corrispondono;
+2. Per registrare un nuovo movimento cliccare su **nuovo movimento**, segnare il canale, la categoria e l’ammontare;
+3. C’è la possibilità di inviare direttamente alla mail dell’erasmus la ricevuta via mail: inviamola solo se si tratta di un evento;
+4. Nel caso di entrate (quote socio, eventi e merchandising) **segnare in nota il numero di ricevuta**;
+5. Se capita di dover comprare materiale per l’ufficio (es. blocchetti delle ricevute), prendere i soldi dalla cassa e come categoria segnare ufficio con la cifra corrispondente (con il meno davanti);
+6. Su questo nuovo registro è anche possibile segnare i rimborsi con la stessa procedura della categoria ufficio (quindi il vecchio form rimborsi non verrà più usato);
+7. A fine turno per segnare il versamento cliccare la categoria altro, segnare come ammontare la cifra che si versa (es.-30€) e segnare in nota versamento;
+8. Controllare che tutto sia giusto su lista movimenti con data 1 gennaio-data del turno ufficio;
+9. Tutte le banconote devono essere versate *tutte il giorno stesso*, lasciando in cassa solo le monete.
 
 # Programmi di ESN
 * * *
