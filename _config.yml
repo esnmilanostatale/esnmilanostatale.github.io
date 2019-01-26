@@ -30,6 +30,8 @@ ui:
         color2: "#080331"
         trianglify: false
 
+disqus: false
+
 social:
     website:
         enabled: true
