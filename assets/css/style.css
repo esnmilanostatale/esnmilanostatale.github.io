@@ -101,6 +101,7 @@ cite {
     text-align: center;
     font-size: 30px;
     text-decoration: none;
+    filter: brightness(100);
 }
 
 #openMenu:hover {
