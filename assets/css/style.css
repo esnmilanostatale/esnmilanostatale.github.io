@@ -102,6 +102,7 @@ cite {
     font-size: 30px;
     text-decoration: none;
     filter: brightness(100);
+    display:hidden;
 }
 
 #openMenu:hover {
@@ -109,7 +110,8 @@ cite {
     color: #FFFFFF;
 }
 /* MOBILE */
-@media type screen and min-width:977px {
-
-
+@media only screen and (max-width: 976px) {
+    #openMenu { 
+        display: inline;
+    }
 }
