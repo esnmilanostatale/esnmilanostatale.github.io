@@ -24,7 +24,7 @@ $(document).ready(function() {
 });
  /*Scroll to top when arrow up clicked END*/
 $(window).bind('scroll', function() {
-         if ($(window).scrollTop() > 50) {
+         if ($(window).scrollTop() < 300) {
              $('#openMenu').css("filter", "brightness(100)");
          }
          else {
