@@ -110,7 +110,7 @@ cite {
     color: #FFFFFF;
 }
 /* MOBILE */
-@media only screen and (max-width: 976px) {
+@media only screen and (max-width: 960px) {
     #openMenu { 
         display: inline;
     }
