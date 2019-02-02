@@ -34,7 +34,7 @@ La ESNcard viene consegnata ai membri di ESN come _premio_ per l'impegno svolto 
 ## Apertura / Chiusura
 L'apertura dell'ufficio può essere effettuata soltanto da un membro <a href="#attivazione">__attivo__</a>. Ad inizio turno è importante contare i soldi già presenti in cassa e annotarsi l'importo (Servirà a chiusura turno).
 
-Chi fa ufficio deve leggere attentamente il __thread UFFICIO__ in mailing list per essere informato sugli eventi e su come iscrivere gli Erasmus ad ogni evento: alcuni eventi richiedono fattura e iscrizione tramite managESN, altri richiedono, ad esempio, la compilazione di un excel e i soldi in busta.
+Chi fa ufficio deve leggere attentamente il __thread UFFICIO__ in mailing list per essere informato sugli eventi e su come iscrivere gli Erasmus ad ogni evento: alcuni eventi richiedono fattura e iscrizione tramite <a href="#jupiter">Jupiter</a>, altri richiedono, ad esempio, la compilazione di un excel e i soldi in busta.
 
 ## Rilascio ESNcard
 Prerequisiti:
@@ -42,17 +42,22 @@ Prerequisiti:
 - Documento del richiedente
 - Fototessera del richiedente (Facoltativa: se il richiedente non ce l'ha può comunque iscriversi e mettere la fototessera successivamente da solo)
 
-Quando uno studente Erasmus viene a richiedere la ESNcard va iscritto tramite <a href="#managesn">managESN</a>, in particolare la procedura da seguire è la seguente:
-- Compilare il modulo presente in managESN per l'iscrizione di un nuovo membro (con informazioni sul documento)
+Quando uno studente Erasmus viene a richiedere la ESNcard va iscritto tramite <a href="#jupiter">Jupiter</a>, in particolare la procedura da seguire è la seguente:
+- Compilare il form presente in Jupiter per l'iscrizione di un nuovo membro (con informazioni sul documento)
 - Inserire correttamente il numero dell'ESNcard
-- Compilare e far firmare il modulo per il trattamento dei dati
 - Compilare la ESN card e consegnarla al richiedente (La data da scrivere è stabilita ad inizio anno accademico ed è la stessa per tutto l'anno)
 - Rilasciare la fattura con causale "Quota associativa"
 - Ritirare la quota associativa
 
 
-## managESN
-managESN è il sistema di gestione di tutti gli iscritti a ESN Milano Statale, di alcuni eventi organizzati dalla sezione e di [....]. Può essere utilizzato come strumento di ricerca degli studenti Erasmus già iscritti e in possesso di una ESNcard
+## Jupiter
+Jupiter è il nuovo sistema di gestione di tutti gli iscritti a ESN Milano Statale, sia Erasmus che Associati, di alcuni eventi organizzati dalla sezione e di gestione delle fatture emesse (Vedi <a href="#esnregistro">ESN Registro</a>). Può essere utilizzato come strumento di ricerca degli studenti Erasmus già iscritti e in possesso di una ESNcard.
+Per la sessione/tutorial su come utilizzare tutte le funzionalità di Jupiter si rimanda alla <a href="https://www.esnitalia.org/wiki/doku.php?id=wikihow:jupiter">Wiki di ESN Italia</a>(Account Galaxy attivo richiesto). 
+
+Riassumendo, Jupiter deve essere usato necessariamente per:
+- Iscrivere e tener traccia sia degli studenti internazionali che dei membri dell'associazione
+- Iscrivere e gestire alcuni eventi nazionali o più importanti, come ad esempio viaggio, che richiedono un maggiore "controllo" dei partecipanti.
+- Inserire a registro le fatture della giornata e tener traccia di tutti i movimenti di cassa durante i turni ufficio. 
 
 ## ESN Registro
 Il registro di ESN Milano Statale tiene traccia di tutte le fatture emesse durante il turno ufficio e dei soldi presenti in cassa ad ogni turno. Il registro va **obbligatoriamente** compilato a fine turno ufficio inserendo **tutte** le fatture rilasciate durante il turno con numero di fattura e causale:
