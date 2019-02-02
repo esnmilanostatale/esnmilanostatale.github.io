@@ -85,8 +85,7 @@ Tutto questo sistema è gestito dal bellissimo Papaya matching system che in bas
 Non vedi l'ora di aiutare uno studente Erasmus e di farti un amico internazionale? Cosa aspetti allora! <a href="https://papaya.iter-idea.com/">Iscriviti a Papaya</a>.
 
 ## Mentor system
-
-
+A differenza del programma buddy, dove ad un membro dell'associazione viene affiancato uno studente internazionale, il **mentor system** è utilizzato per affiancare ai nuovi membri di sezione (<a href="#aspiranti">Aspiranti</a>) un membro attivo che ha esperienza in sezione. Lo scopo dei mentor è quello di **formare le nuove risorse** rispondendo a tutte le loro domande riguardanti l'associazione e coinvolgendoli a partecipare attivamente alle attività di sezione, ad esempio proponendo loro dei WG. Ad ogni nuovo aspirante viene assegnato un mentor dopo pochi giorni dall'iscrizione all'associazione. Il mentor system viene coordinato e supervisionato dal Vicepresidente di sezione.
 
 # Working Groups
 * * *
