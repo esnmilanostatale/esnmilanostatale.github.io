@@ -88,7 +88,7 @@ I Working Group (WG) sono i mezzi principali attraverso i quali la nostra amata 
 
 **Vuoi entrare in un working group?** semplice! Invia un'[email al board](#board-mail) scrivendo perché desideri candidarti.
 
-### Regole per i WG
+### Regole per i WG<i class="em em-small em-warning"></i>
 Ecco alcune regole da seguire per i referenti dei WG, in modo tale da svolgere il lavoro al meglio e senza ritrovarsi con l’acqua alla gola:
 - Calendarizzare entro il **20 di ogni mese** -> Entro questa data, tutti gli eventi devono essere **aggiornati in Google Calendar**
 - Se determinati eventi necessitano di essere in un giorno determinato, avvisare il board in modo tale che possa “fissare” l’evento. Altrimenti sarà il board a valutare se spostare le date di determinati eventi in caso di necessità
