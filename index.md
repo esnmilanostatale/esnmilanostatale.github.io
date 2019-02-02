@@ -76,6 +76,7 @@ Il registro di ESN Milano Statale tiene traccia di tutte le fatture emesse duran
 * * *
 
 ## Buddy system
+Il programma buddy è volto ad associare ogni studente internazionale in arrivo a Milano ad un singolo membro di sezione in modo da formare un legame "speciale" sin dai primi giorni. Questo programma mette nel concreto il motto **students helping students** fornendo un punto di riferimento per aiutare i nuovi arrivi ad ambientarsi e risolvere problematiche tipiche di chi si trova all'estero in un paese che non conosce. In particolare ai membri di sezione che richiedono un buddy è consigliato socializzare quanto più con lo stesso in modo da fargli sentire che in caso di bisogno, voi ci siete. Dovrete anche ovviamente invitarlo a partecipare agli eventi di sezione, al **welcome day** in modo che possa ambientarsi e conoscere anche gli altri Erasmus. Tutto questo sistema è gestito dal bellissimo Papaya matching system che in base agli interessi e area di studi cerca di trovare degli abbinamenti tra volontari e studenti internazionali. Non vedi l'ora di aiutare uno studente Erasmus e di farti un amico internazionale? Cosa aspetti allora! <a href="https://papaya.iter-idea.com/">Iscriviti a Papaya</a>.
 
 ## Mentor system
 
