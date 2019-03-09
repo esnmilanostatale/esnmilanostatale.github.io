@@ -116,7 +116,7 @@ Il Working Group Eventi ha il compito di creare ed organizzare le serate miglior
 Un esempio è ciò che noi chiamiamo _Travelling Bar_, che potremmo definire come un _Pub Crawl_ spalmato su tutto il semestre, organizzando una serata in un bar diverso almeno due volte al mese. Mettersi in gioco partecipando a questo WG significa insomma utilizzare il proprio spirito da _party animal_  per una buona causa, le proprie abilità da PR per farci rincorrere dai migliori locali ed offrire agli Erasmus dei deal senza pari, oppure semplicemente trovare il modo di andare nel proprio pub preferito pagando la metà.
 
 ### WG Viaggi <i class="em em-small em-airplane"></i>
-<span class="wgRef">Referente: <a href="#">Ilaria Bergamaschi</a></span><br/>
+<span class="wgRef">Referente: <a href="#">Anna Mangiaracina</a></span><br/>
 <cite>Non siamo così Tumblr da chiamarlo 'Wanderlust', ma è la stessa cosa</cite>
 Come ogni Erasmus che si rispetti, anche i nostri vogliono girare il mondo, dunque eccovi servito il WG Viaggi! Si tratta di un Working Group che ha il compito di pianificare ogni aspetto di viaggi e gite: dai meno entusiasmanti, come l’assicurazione o la prenotazione dei biglietti, a quelli più creativi, come la scelta del posto e del tipo di viaggio. Il programma della giornata è interamente nelle mani di questo WG, che ha il potere anche di decidere cosa farci mangiare, dove e a che ora. Alcuni dei nostri viaggi: _Oktoberfest, Torino, Toscana, Bergamo_.
 
@@ -130,7 +130,7 @@ Ma questo Working Group è noioso come sembra? La risposta è no, questo è un W
 Essendo questo WG volontariato a livello puro, i membri del gruppo hanno anche il compito di farsi conoscere da altri enti ed associazioni, in modo da collaborare e trasformare le proprie idee in realtà. Insomma: si creano eventi, si cercano partner, si rende entusiasmante aiutare il prossimo, il Working Group adatto per ripulirsi la coscienza.
 Alcune proposte: _pulizia graffiti, giornata al canile, corso di difesa personale, mensa dei poveri_.
 ### WG Sport <i class="em em-small em-soccer"></i>
-<span class="wgRef">Referente: <a href="#">Daniele Antonazzo</a></span><br/>
+<span class="wgRef">Referente: <a href="#">Elena Carella</a></span><br/>
 <cite>Quante calorie ci sono nei due drink dell’Alcatraz? Quante corse intorno al duomo mi aspettano per smaltire il kebab del giorno dopo?</cite>
 Il Working Group Sport si occupa della *creazione di eventi a tema sportivo*. Uno degli eventi maggiormente riusciti è il cosiddetto Get Fit, dove ESNer ed Erasmus passano una mattinata od un pomeriggio facendo esercizio, per esempio correndo a Parco Sempione.  
 
@@ -139,17 +139,17 @@ Il Working Group Sport si occupa della *creazione di eventi a tema sportivo*. Un
 Il motto: _Ma se non torni con tre taglie in più sei davvero andato in Erasmus?_
 
 ### WG Tandem<i class="em em-small em-bike"></i>
-<span class="wgRef">Referente: <a href="#">Ilaria Bergamaschi</a></span><br/>
+<span class="wgRef">Referente: <a href="#">Giusi Discenza</a></span><br/>
 
 ### WG Cultura<i class="em em-small em-books"></i>
 <span class="wgRef">Referente: <a href="#">Marilù Fortino</a></span><br/>
 <cite>Leonardo non è solo una tartaruga.</cite>
 Questo Working Group si occupa dell’*arricchimento culturale* dei nostri amati Erasmus prima del _botellon_ e dopo il _chicken&chicken_. Organizza gli eventi più disparati, tutti con un solo obiettivo: far amare Milano a 360°. Con city-tour attraverso la città, dai più conservatori di fronte alla Madonnina a quelli tra i graffiti dei quartieri meneghini, archivi ed esibizioni artistiche, questo gruppo non smette mai di stupire. Come tutti i WG di ESN Milano Statale, anche il Working Group Cultura accoglie ogni proposta ed idea, così da riuscire nel magico obiettivo di **far conoscere divertendo**.
 
-### WG Grafica<i class="em em-small em-art"></i>
-<span class="wgRef">Referente: <a href="#">Alessio Santoru</a></span><br/>
+### Team Comunicazione<i class="em em-small em-art"></i>
+<span class="wgRef">Referente: <a href="#">Matteo di Lorenzo (Borghese)</a></span><br/>
 <cite>Specchio, servo delle mie brame, chi ha il miglior banner del reame?</cite>
-Noi siamo bellissimi, _non è nemmeno in discussione_, ma i nostri contenuti grafici? Anche, grazie al creativo e coloratissimo WG Grafica! Non è necessario essere esperti di Photoshop o di altri marchingegni misteriosi: l’originalità è tutto ciò che chiediamo. Per rendere i nostri eventi sempre più accattivanti, per scoprire l’ennesimo sito di banner disponibili online: aspettiamo solo te.
+Noi siamo bellissimi, _non è nemmeno in discussione_, ma la facciata esterna dell'associazione? Anche, grazie al creativo Team Comunicazione! Non è necessario essere esperti di Photoshop o di altri marchingegni misteriosi: l’originalità è tutto ciò che chiediamo. Per rendere i nostri eventi sempre più accattivanti, per scoprire l’ennesimo sito di banner disponibili online, per impostare delle strategie da seguire con le nostre pagine social (Instagram e Facebook), per decidere _come_ e _quando_ comunicare qualcosa agli Erasmus. Aspettiamo solo te!
 
 ### WG Partnership<i class="em em-small em-handshake"></i>
 <span class="wgRef">Referente (Partnership Manager): <a href="#">Stefano Rossi</a></span><br/>
@@ -168,11 +168,11 @@ Il WG webmaster si occupa della gestione del sito web di sezione, come l'inserim
 ## Presidente
 <span class="brRef">In carica: <a href="#">Stefano Rossi</a> - <a href="mailto:presidente@esnmilanostatale.it">presidente@esnmilanostatale.it</a></span><br/>
 ## Vicepresidente
-<span class="brRef">In carica: <a href="#">Andrea Meroni</a> - <a href="mailto:vicepresidente@esnmilanostatale.it">vicepresidente@esnmilanostatale.it</a></span><br/>
+<span class="brRef">In carica: <a href="#">Alessio Santoru</a> - <a href="mailto:vicepresidente@esnmilanostatale.it">vicepresidente@esnmilanostatale.it</a></span><br/>
 ## Segretario
 <span class="brRef">In carica: <a href="#">Natasha Baccichetto</a> - <a href="mailto:tesoriere@esnmilanostatale.it">segretario@esnmilanostatale.it</a></span><br/>
 ## Tesoriere
-<span class="brRef">In carica: <a href="#">Ilaria Bergamaschi</a> - <a href="mailto:segretario@esnmilanostatale.it">tesoriere@esnmilanostatale.it</a></span><br/>
+<span class="brRef">In carica: <a href="#">Matteo Zampatti</a> - <a href="mailto:segretario@esnmilanostatale.it">tesoriere@esnmilanostatale.it</a></span><br/>
 ## Rappresentante locale
 <span class="brRef">In carica: <a href="#">Marilù Fortino</a> - <a href="mailto:rl@esnmilanostatale.it">rl@esnmilanostatale.it</a></span><br/>
 
@@ -186,6 +186,8 @@ La mailing list attualmente è il canale di comunicazione "ufficiale" per tutti 
 ## Board mail
 La casella email del board è `board@esnmilanostatale.it` e può essere utilizzata da tutti per le comunicazioni destinate ai membri del board.
 Tra le altre cose, la mail è utilizzata per inviare le candidature ai working group, per richiedere l'attivazione o per candidarsi come accompagnatori o referenti per eventi particolari.
+
+## Gruppo WhatsApp (Con gli Erasmus)
 
 # Risorse utili
 
