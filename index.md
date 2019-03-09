@@ -140,6 +140,10 @@ Il motto: _Ma se non torni con tre taglie in più sei davvero andato in Erasmus?
 
 ### WG Tandem<i class="em em-small em-bike"></i>
 <span class="wgRef">Referente: <a href="#">Giusi Discenza</a></span><br/>
+<cite>Perdonate colui che non parla che una lingua: non sa ciò che fa.</cite>
+Che ci siano lingue diverse è il fatto più misterioso del mondo... Vuol dire che per le stesse cose ci sono nomi diversi!
+In questo Working Group ci divertiamo a capire quanti modi diversi ci sono per comunicare, a **parlare lingue** che conosciamo ma anche ad **apprenderne di nuove**. 
+Organizziamo diversi eventi per rendere lo studio di una lingua più rapido ed efficace!
 
 ### WG Cultura<i class="em em-small em-books"></i>
 <span class="wgRef">Referente: <a href="#">Marilù Fortino</a></span><br/>
