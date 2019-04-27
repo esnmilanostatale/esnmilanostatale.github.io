@@ -170,7 +170,7 @@ Il WG webmaster si occupa della gestione del sito web di sezione, come l'inserim
 * * *
 
 ## Presidente
-<span class="brRef">In carica: <a href="#">Stefano Rossi</a> - <a href="mailto:presidente@esnmilanostatale.it">presidente@esnmilanostatale.it</a></span><br/>
+<span class="brRef">In carica: <a href="#">Ilaria Bergamaschi</a> - <a href="mailto:presidente@esnmilanostatale.it">presidente@esnmilanostatale.it</a></span><br/>
 ## Vicepresidente
 <span class="brRef">In carica: <a href="#">Alessio Santoru</a> - <a href="mailto:vicepresidente@esnmilanostatale.it">vicepresidente@esnmilanostatale.it</a></span><br/>
 ## Segretario
