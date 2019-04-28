@@ -1,6 +1,6 @@
 ---
 layout: page
-homepage: true
+homepage: false
 ---
 # Guida al mentor perfetto
 Benvenuti nella wiki di **ESN Milano Statale**! <i class="em em-sunglasses"></i>
