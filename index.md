@@ -5,11 +5,26 @@ homepage: true
 # Benvenuti!
 Benvenuti nella wiki di **ESN Milano Statale**! <i class="em em-sunglasses"></i>
 Ci sono degli errori? Vuoi contribuire con dei contenuti? Hai una segnalazione? Contatta il WG Webmaster!
-# Aspiranti / Attivi
 
+# Aspiranti / Attivi
 * * *
 Tutti i nuovi membri di sezione sono "aspiranti". Per diventare a tutti gli effetti un membro attivo di sezione si può richiedere, in seguito all'ottenimento dei requisiti,  l'[attivazione](#attivazione).
 
+## Procedura di iscrizione per ESNers
+L'iscrizione in sezione è libera per tutti gli studenti dell'Università degli Studi di Milano.
+
+Quando un nuovo aspirante viene ad iscriversi in ufficio si compila correttamente il foglio Excel degli associati e si consegna il foglio di benvenuto insieme al flyer di ESN Italia, se disponibile.
+Oltre alla procedura di iscrizione, l'aspirante deve **scegliere 2 working group** nei quali intende esser inserito per aiutare in sezione. Si rilascia inoltre la ricevuta per **Deposito** e si ritira il deposito.
+
+## Periodo di prova
+In seguito all'iscrizione l'aspirante entra in una fase _di prova_ che dovrà superare in circa 60 giorni, dimostrando di esser interessato alla vita associativa e aiutando i vari working group nell'organizzazione degli eventi.
+Al termine del periodo di prova il board valuta l'operato dell'aspirante e, in caso di valutazione positiva, l'aspirante riceve la <a href="#esncard">ESNcard</a>.
+
+## Procedura per Aspiranti che hanno superato il periodo di prova
+Superato il periodo di prova, l'aspirante deve:
+- Essere inserito nella ML `aspiranti@esnmilanostatale.it`
+- Essere inserito nel gruppo di sezione su Facebook e su Whatsapp
+- Tornare in ufficio per il **rimborso del deposito**, per il **pagamento della quota associativa**, per il **rilascio della ESNcard**
 
 ## Attivazione
 Per attivazione si intende il procedimento di "promozione" di un ESNer da **Aspirante** a **Attivo**. L'attivazione può essere richiesta dall'aspirante nel caso in cui siano rispettati i seguenti punti:
@@ -19,11 +34,13 @@ Per attivazione si intende il procedimento di "promozione" di un ESNer da **Aspi
 
 Per richiedere l'attivazione si manda un'[email al board](#board-mail) qualche giorno prima dell'assemblea. La richiesta di attivazione viene poi valutata durante l'assemblea in assenza del richiedente.
 
+## Procedura per Associati che diventano Attivi
+
 ## ESNcard
 La ESNcard viene consegnata ai membri di ESN come _premio_ per l'impegno svolto in sezione. Solitamente viene assegnata dal board agli aspiranti dopo **60 giorni** di presenza attiva in sezione (Al fine di evitare esterni che si iscrivono soltanto per la tessera e relativi sconti).
 
 - La consegna della ESNcard non è collegata in nessun modo all'<a href="#attivazione">Attivazione</a>
-- La ESNcard non va richiesta, viene _regalata_ dal board ai membri meritevoli! <i class="em em-smile"></i>
+- La ESNcard non va richiesta, viene _ottenuta_ in seguito al superamento del periodo di prova <i class="em em-smile"></i>
 
 ## Galaxy
 [Galaxy](https://galaxy.esn.org) è il portale principale di ESN International dove sono presenti vari collegamenti ai portali utilizzati dall'associazione. Alcuni dei portali più interessanti sono la Wiki di ESN International, che raccoglie infiniti documenti utilissimi, il dizionario di ESN per imparare le numerose sigle, il calendario che racchiude tutti gli eventi internazionali e nazionali in programma e il WebShop dove è possibile ordinare dei fantastici gadget con il logo di ESN <i class="em em-heart"></i>. Comprende inoltre il sistema di gestione dei membri attivi divisi per sezione di appartenenza in modo da tener traccia degli stessi, è infatti richiesto a tutti i **membri attivi** di sezione di **creare un account** in modo che sia la sezione che ESN International possano avere una panoramica dei membri attivi e delle loro occupazioni (Ad esempio le cariche del board).
@@ -174,9 +191,9 @@ Il WG webmaster si occupa della gestione del sito web di sezione, come l'inserim
 ## Vicepresidente
 <span class="brRef">In carica: <a href="#">Alessio Santoru</a> - <a href="mailto:vicepresidente@esnmilanostatale.it">vicepresidente@esnmilanostatale.it</a></span><br/>
 ## Segretario
-<span class="brRef">In carica: <a href="#">Natasha Baccichetto</a> - <a href="mailto:tesoriere@esnmilanostatale.it">segretario@esnmilanostatale.it</a></span><br/>
+<span class="brRef">In carica: <a href="#">Laura Salvemini</a> - <a href="mailto:tesoriere@esnmilanostatale.it">segretario@esnmilanostatale.it</a></span><br/>
 ## Tesoriere
-<span class="brRef">In carica: <a href="#">Matteo Zampatti</a> - <a href="mailto:segretario@esnmilanostatale.it">tesoriere@esnmilanostatale.it</a></span><br/>
+<span class="brRef">In carica: <a href="#">Gianluca Rubino</a> - <a href="mailto:segretario@esnmilanostatale.it">tesoriere@esnmilanostatale.it</a></span><br/>
 ## Rappresentante locale
 <span class="brRef">In carica: <a href="#">Marilù Fortino</a> - <a href="mailto:rl@esnmilanostatale.it">rl@esnmilanostatale.it</a></span><br/>
 
