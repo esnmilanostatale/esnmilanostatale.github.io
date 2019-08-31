@@ -10,12 +10,6 @@ Ci sono degli errori? Vuoi contribuire con dei contenuti? Hai una segnalazione? 
 * * *
 Tutti i nuovi membri di sezione sono "aspiranti". Per diventare a tutti gli effetti un membro attivo di sezione si può richiedere, in seguito all'ottenimento dei requisiti,  l'[attivazione](#attivazione).
 
-## Procedura di iscrizione per ESNers
-L'iscrizione in sezione è libera per tutti gli studenti dell'Università degli Studi di Milano.
-
-Quando un nuovo aspirante viene ad iscriversi in ufficio si compila correttamente il foglio Excel degli associati e si consegna il foglio di benvenuto insieme al flyer di ESN Italia, se disponibile.
-Oltre alla procedura di iscrizione, l'aspirante deve **scegliere 2 working group** nei quali intende esser inserito per aiutare in sezione. Si rilascia inoltre la ricevuta per **Deposito** e si ritira il deposito.
-
 ## Periodo di prova
 In seguito all'iscrizione l'aspirante entra in una fase _di prova_ che dovrà superare in circa 60 giorni, dimostrando di esser interessato alla vita associativa e aiutando i vari working group nell'organizzazione degli eventi.
 Al termine del periodo di prova il board valuta l'operato dell'aspirante e, in caso di valutazione positiva, l'aspirante riceve la <a href="#esncard">ESNcard</a>.
@@ -28,7 +22,6 @@ Per attivazione si intende il procedimento di "promozione" di un ESNer da **Aspi
 
 Per richiedere l'attivazione si manda un'[email al board](#board-mail) qualche giorno prima dell'assemblea. La richiesta di attivazione viene poi valutata durante l'assemblea in assenza del richiedente.
 
-## Procedura per Associati che diventano Attivi
 
 ## ESNcard
 La ESNcard viene consegnata ai membri di ESN come _premio_ per l'impegno svolto in sezione. Solitamente viene assegnata dal board agli aspiranti dopo **60 giorni** di presenza attiva in sezione (Al fine di evitare esterni che si iscrivono soltanto per la tessera e relativi sconti).
@@ -47,7 +40,6 @@ L'apertura dell'ufficio può essere effettuata soltanto da un membro <a href="#a
 
 Chi fa ufficio deve leggere attentamente il __thread UFFICIO__ in mailing list per essere informato sugli eventi e su come iscrivere gli Erasmus ad ogni evento: alcuni eventi richiedono fattura e iscrizione tramite <a href="#jupiter">Jupiter</a>, altri richiedono, ad esempio, la compilazione di un excel e i soldi in busta.
 
-
 ## Jupiter
 Jupiter è il nuovo sistema di gestione di tutti gli iscritti a ESN Milano Statale, sia Erasmus che Associati, di alcuni eventi organizzati dalla sezione e di gestione delle fatture emesse (Vedi <a href="#esnregistro">ESN Registro</a>). Può essere utilizzato come strumento di ricerca degli studenti Erasmus già iscritti e in possesso di una ESNcard.
 Per la sessione/tutorial su come utilizzare tutte le funzionalità di Jupiter si rimanda alla <a href="https://www.esnitalia.org/wiki/doku.php?id=wikihow:jupiter">Wiki di ESN Italia</a>(Account Galaxy attivo richiesto). 
@@ -56,6 +48,16 @@ Riassumendo, Jupiter deve essere usato necessariamente per:
 - Iscrivere e tener traccia sia degli studenti internazionali che dei membri dell'associazione
 - Iscrivere e gestire alcuni eventi nazionali o più importanti, come ad esempio viaggio, che richiedono un maggiore "controllo" dei partecipanti.
 - Inserire a registro le fatture della giornata e tener traccia di tutti i movimenti di cassa durante i turni ufficio. 
+
+# Procedure utili
+
+## Procedure utili - Per l'ufficio
+
+## Apertura ufficio - Conteggio soldi (Consigliato)
+Ad apertura ufficio è fortemente consigliato controllare sia in cassa che su Jupiter che la lista dei movimenti sia corretta:
+- Contare i soldi presenti in cassa (Non dovrebbero esserci, siccome ad ogni turno si deve depositare, ma potrebbero esser presenti soldi in moneta)
+- Controllare la **lista movimenti** su Jupiter, inserendo come data di inizio e di fine la data odierna, e *verificare* che i soldi visualizzati dal sistema siano gli stessi presenti in cassa
+
 
 ## Chiusura ufficio - ESN Registro (Obbligatorio)
 Il registro di ESN Milano Statale tiene traccia di tutte le fatture emesse durante il turno ufficio e dei soldi presenti in cassa ad ogni turno. Il registro va **obbligatoriamente** compilato a fine turno ufficio inserendo **tutte** le fatture rilasciate durante il turno con numero di fattura e causale:
@@ -87,18 +89,21 @@ Quando uno studente Erasmus viene a richiedere la ESNcard va iscritto tramite <a
 
 ## Procedure utili - Per gli associati
 
+### Procedura di iscrizione dei nuovi associati
+L'iscrizione in sezione è libera per tutti gli studenti dell'Università degli Studi di Milano.
+
+Quando un nuovo aspirante viene ad iscriversi in ufficio si compila correttamente il foglio Excel degli associati e si consegna il foglio di benvenuto insieme al flyer di ESN Italia, se disponibile.
+Oltre alla procedura di iscrizione, l'aspirante deve **scegliere 2 working group** nei quali intende esser inserito per aiutare in sezione. Si rilascia inoltre la ricevuta per **Deposito** e si ritira il deposito.
+
 ### Procedura per Aspiranti che hanno superato il periodo di prova
 Superato il periodo di prova, l'aspirante deve:
 - Essere inserito nella ML `aspiranti@esnmilanostatale.it`
 - Essere inserito nel gruppo di sezione su Facebook e su Whatsapp
 - Tornare in ufficio per il **rimborso del deposito**, per il **pagamento della quota associativa**, per il **rilascio della ESNcard**
 
-
-
-
-
-
-
+### Procedura per Associati che diventano Attivi
+Una volta che l'associato passa da aspirante ad attivo, deve:
+- Essere rimosso dalla ML aspiranti e inserito nella ML `attivi@esnmilanostatale.it`
 
 
 # Programmi di ESN
