@@ -51,15 +51,15 @@ Riassumendo, Jupiter deve essere usato necessariamente per:
 
 # Procedure utili
 
-## Procedure utili - Per l'ufficio
+## Per l'ufficio
 
-## Apertura ufficio - Conteggio soldi (Consigliato)
+### Apertura ufficio - Conteggio soldi (Consigliato)
 Ad apertura ufficio è fortemente consigliato controllare sia in cassa che su Jupiter che la lista dei movimenti sia corretta:
 - Contare i soldi presenti in cassa (Non dovrebbero esserci, siccome ad ogni turno si deve depositare, ma potrebbero esser presenti soldi in moneta)
 - Controllare la **lista movimenti** su Jupiter, inserendo come data di inizio e di fine la data odierna, e *verificare* che i soldi visualizzati dal sistema siano gli stessi presenti in cassa
 
 
-## Chiusura ufficio - ESN Registro (Obbligatorio)
+### Chiusura ufficio - ESN Registro (Obbligatorio)
 Il registro di ESN Milano Statale tiene traccia di tutte le fatture emesse durante il turno ufficio e dei soldi presenti in cassa ad ogni turno. Il registro va **obbligatoriamente** compilato a fine turno ufficio inserendo **tutte** le fatture rilasciate durante il turno con numero di fattura e causale:
 
 1. Nella sezione tesoreria cliccare su **lista movimenti** e cliccare sulla data dell’ultima apertura dell’ufficio per vedere se i soldi corrispondono;
@@ -72,7 +72,7 @@ Il registro di ESN Milano Statale tiene traccia di tutte le fatture emesse duran
 8. Controllare che tutto sia giusto su lista movimenti con data 1 gennaio-data del turno ufficio;
 9. Tutte le banconote devono essere versate *tutte il giorno stesso*, lasciando in cassa solo le monete.
 
-## Procedure utili - Per gli Erasmus
+## Per gli Erasmus
 ### Rilascio ESNcard
 Prerequisiti:
 - ESNcard disponibili :P
@@ -87,7 +87,7 @@ Quando uno studente Erasmus viene a richiedere la ESNcard va iscritto tramite <a
 - Rilasciare la fattura con causale "Quota associativa"
 - Ritirare la quota associativa
 
-## Procedure utili - Per gli associati
+## Per gli associati
 
 ### Procedura di iscrizione dei nuovi associati
 L'iscrizione in sezione è libera per tutti gli studenti dell'Università degli Studi di Milano.
