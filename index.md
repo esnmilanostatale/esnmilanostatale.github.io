@@ -20,12 +20,6 @@ Oltre alla procedura di iscrizione, l'aspirante deve **scegliere 2 working group
 In seguito all'iscrizione l'aspirante entra in una fase _di prova_ che dovrà superare in circa 60 giorni, dimostrando di esser interessato alla vita associativa e aiutando i vari working group nell'organizzazione degli eventi.
 Al termine del periodo di prova il board valuta l'operato dell'aspirante e, in caso di valutazione positiva, l'aspirante riceve la <a href="#esncard">ESNcard</a>.
 
-## Procedura per Aspiranti che hanno superato il periodo di prova
-Superato il periodo di prova, l'aspirante deve:
-- Essere inserito nella ML `aspiranti@esnmilanostatale.it`
-- Essere inserito nel gruppo di sezione su Facebook e su Whatsapp
-- Tornare in ufficio per il **rimborso del deposito**, per il **pagamento della quota associativa**, per il **rilascio della ESNcard**
-
 ## Attivazione
 Per attivazione si intende il procedimento di "promozione" di un ESNer da **Aspirante** a **Attivo**. L'attivazione può essere richiesta dall'aspirante nel caso in cui siano rispettati i seguenti punti:
 - Aver fatto almeno **10 presenze** in ufficio
@@ -53,19 +47,6 @@ L'apertura dell'ufficio può essere effettuata soltanto da un membro <a href="#a
 
 Chi fa ufficio deve leggere attentamente il __thread UFFICIO__ in mailing list per essere informato sugli eventi e su come iscrivere gli Erasmus ad ogni evento: alcuni eventi richiedono fattura e iscrizione tramite <a href="#jupiter">Jupiter</a>, altri richiedono, ad esempio, la compilazione di un excel e i soldi in busta.
 
-## Rilascio ESNcard
-Prerequisiti:
-- ESNcard disponibili :P
-- Documento del richiedente
-- Fototessera del richiedente (Facoltativa: se il richiedente non ce l'ha può comunque iscriversi e mettere la fototessera successivamente da solo)
-
-Quando uno studente Erasmus viene a richiedere la ESNcard va iscritto tramite <a href="#jupiter">Jupiter</a>, in particolare la procedura da seguire è la seguente:
-- Compilare il form presente in Jupiter per l'iscrizione di un nuovo membro (con informazioni sul documento)
-- Inserire correttamente il numero dell'ESNcard
-- Compilare la ESN card e consegnarla al richiedente (La data da scrivere è stabilita ad inizio anno accademico ed è la stessa per tutto l'anno)
-- Rilasciare la fattura con causale "Quota associativa"
-- Ritirare la quota associativa
-
 
 ## Jupiter
 Jupiter è il nuovo sistema di gestione di tutti gli iscritti a ESN Milano Statale, sia Erasmus che Associati, di alcuni eventi organizzati dalla sezione e di gestione delle fatture emesse (Vedi <a href="#esnregistro">ESN Registro</a>). Può essere utilizzato come strumento di ricerca degli studenti Erasmus già iscritti e in possesso di una ESNcard.
@@ -76,7 +57,7 @@ Riassumendo, Jupiter deve essere usato necessariamente per:
 - Iscrivere e gestire alcuni eventi nazionali o più importanti, come ad esempio viaggio, che richiedono un maggiore "controllo" dei partecipanti.
 - Inserire a registro le fatture della giornata e tener traccia di tutti i movimenti di cassa durante i turni ufficio. 
 
-## ESN Registro
+## Chiusura ufficio - ESN Registro (Obbligatorio)
 Il registro di ESN Milano Statale tiene traccia di tutte le fatture emesse durante il turno ufficio e dei soldi presenti in cassa ad ogni turno. Il registro va **obbligatoriamente** compilato a fine turno ufficio inserendo **tutte** le fatture rilasciate durante il turno con numero di fattura e causale:
 
 1. Nella sezione tesoreria cliccare su **lista movimenti** e cliccare sulla data dell’ultima apertura dell’ufficio per vedere se i soldi corrispondono;
@@ -88,6 +69,37 @@ Il registro di ESN Milano Statale tiene traccia di tutte le fatture emesse duran
 7. A fine turno per segnare il versamento cliccare la categoria altro, segnare come ammontare la cifra che si versa (es.-30€) e segnare in nota versamento;
 8. Controllare che tutto sia giusto su lista movimenti con data 1 gennaio-data del turno ufficio;
 9. Tutte le banconote devono essere versate *tutte il giorno stesso*, lasciando in cassa solo le monete.
+
+## Procedure utili - Per gli Erasmus
+### Rilascio ESNcard
+Prerequisiti:
+- ESNcard disponibili :P
+- Documento del richiedente
+- Fototessera del richiedente (Facoltativa: se il richiedente non ce l'ha può comunque iscriversi e mettere la fototessera successivamente da solo)
+- Assicurarsi che l'Erasmus/Studente internazionale sia effettivamente **iscritto all'Università degli Studi di Milano**, o del **San Raffaele** (Non possiamo tesserare Erasmus di altre università)
+
+Quando uno studente Erasmus viene a richiedere la ESNcard va iscritto tramite <a href="#jupiter">Jupiter</a>, in particolare la procedura da seguire è la seguente:
+- Compilare il form presente in Jupiter per l'iscrizione di un nuovo membro (con informazioni sul documento)
+- Inserire correttamente il numero dell'ESNcard assegnata
+- Compilare la ESN card e consegnarla al richiedente (La data da scrivere è stabilita ad inizio anno accademico ed è la stessa per tutto l'anno)
+- Rilasciare la fattura con causale "Quota associativa"
+- Ritirare la quota associativa
+
+## Procedure utili - Per gli associati
+
+### Procedura per Aspiranti che hanno superato il periodo di prova
+Superato il periodo di prova, l'aspirante deve:
+- Essere inserito nella ML `aspiranti@esnmilanostatale.it`
+- Essere inserito nel gruppo di sezione su Facebook e su Whatsapp
+- Tornare in ufficio per il **rimborso del deposito**, per il **pagamento della quota associativa**, per il **rilascio della ESNcard**
+
+
+
+
+
+
+
+
 
 # Programmi di ESN
 * * *
