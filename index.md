@@ -38,7 +38,7 @@ La ESNcard viene consegnata ai membri di ESN come _premio_ per l'impegno svolto 
 ## Apertura / Chiusura
 L'apertura dell'ufficio può essere effettuata soltanto da un membro <a href="#attivazione">__attivo__</a>. Ad inizio turno è importante contare i soldi già presenti in cassa e annotarsi l'importo (Servirà a chiusura turno).
 
-Chi fa ufficio deve leggere attentamente il __thread UFFICIO__ in mailing list per essere informato sugli eventi e su come iscrivere gli Erasmus ad ogni evento: alcuni eventi richiedono fattura e iscrizione tramite <a href="#jupiter">Jupiter</a>, altri richiedono, ad esempio, la compilazione di un excel e i soldi in busta.
+Chi fa ufficio deve leggere attentamente il __thread UFFICIO__ in mailing list per essere informato sugli eventi e su come iscrivere gli Erasmus ad ogni evento: alcuni eventi richiedono fattura e iscrizione tramite <a href="#jupiter">Jupiter</a>.
 
 ## Jupiter
 Jupiter è il nuovo sistema di gestione di tutti gli iscritti a ESN Milano Statale, sia Erasmus che Associati, di alcuni eventi organizzati dalla sezione e di gestione delle fatture emesse (Vedi <a href="#esnregistro">ESN Registro</a>). Può essere utilizzato come strumento di ricerca degli studenti Erasmus già iscritti e in possesso di una ESNcard.
