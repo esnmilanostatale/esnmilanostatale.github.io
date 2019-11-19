@@ -139,7 +139,7 @@ In base alla tipologia di evento, ci sono **determinate tempistiche**:
 - **Eventi che non richiedono iscrizioni** in ufficio: 1 settimana prima
 
 Ogni evento deve avere inoltre un **referente** ossia una persona a cui la Sezione e gli stessi Erasmus si rivolgono se hanno bisogno di chiedere informazioni relative all'evento e alla sua organizzazione/programmazione.
-Una volta che l’evento viene pubblicato, il **referente dell’evento** deve inviare in concomitanza una [mail alla sezione](#mailing-list) per **comunicare le istruzioni per l’ufficio** (in particolare la **modalità di pagamento**, se si prevede ricevuta e soldi in cassa oppure soldi in busta e bigliettino) e creare il **form** in cui iscrivere le persone con i dati necessari da far compilare in ufficio. Sarà inoltre cura del referente presentarsi puntuale al **meeting point** o trovare un sostituto nel caso in cui sia impossibilitato.
+Una volta che l’evento viene pubblicato, il **referente dell’evento** deve inviare in concomitanza una [mail alla sezione](#mailing-list) per **comunicare le istruzioni per l’ufficio** (in particolare la **modalità di pagamento**, se si prevede ricevuta e soldi in cassa oppure diversamente) e creare il **form** in cui iscrivere le persone con i dati necessari da far compilare in ufficio. Sarà inoltre cura del referente presentarsi puntuale al **meeting point** o trovare un sostituto nel caso in cui sia impossibilitato.
 
 
 ### WG Eventi<i class="em em-small em-wine_glass"></i>
