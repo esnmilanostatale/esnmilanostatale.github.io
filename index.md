@@ -150,7 +150,7 @@ Il Working Group Eventi ha il compito di creare ed organizzare le serate miglior
 Un esempio è ciò che noi chiamiamo _Travelling Bar_, che potremmo definire come un _Pub Crawl_ spalmato su tutto il semestre, organizzando una serata in un bar diverso almeno due volte al mese. Mettersi in gioco partecipando a questo WG significa insomma utilizzare il proprio spirito da _party animal_  per una buona causa, le proprie abilità da PR per farci rincorrere dai migliori locali ed offrire agli Erasmus dei deal senza pari, oppure semplicemente trovare il modo di andare nel proprio pub preferito pagando la metà.
 
 ### WG Viaggi <i class="em em-small em-airplane"></i>
-<span class="wgRef">Referente: <a href="#">Anna Mangiaracina</a></span><br/>
+<span class="wgRef">Referente: <a href="#">Denise Ragona</a></span><br/>
 <cite>Non siamo così Tumblr da chiamarlo 'Wanderlust', ma è la stessa cosa</cite>
 Come ogni Erasmus che si rispetti, anche i nostri vogliono girare il mondo, dunque eccovi servito il WG Viaggi! Si tratta di un Working Group che ha il compito di pianificare ogni aspetto di viaggi e gite: dai meno entusiasmanti, come l’assicurazione o la prenotazione dei biglietti, a quelli più creativi, come la scelta del posto e del tipo di viaggio. Il programma della giornata è interamente nelle mani di questo WG, che ha il potere anche di decidere cosa farci mangiare, dove e a che ora. Alcuni dei nostri viaggi: _Oktoberfest, Torino, Toscana, Bergamo_.
 
@@ -180,23 +180,23 @@ In questo Working Group ci divertiamo a capire quanti modi diversi ci sono per c
 Organizziamo diversi eventi per rendere lo studio di una lingua più rapido ed efficace!
 
 ### WG Cultura<i class="em em-small em-books"></i>
-<span class="wgRef">Referente: <a href="#">Marilù Fortino</a></span><br/>
+<span class="wgRef">Referente: <a href="#">Laura Salvemini</a></span><br/>
 <cite>Leonardo non è solo una tartaruga.</cite>
 Questo Working Group si occupa dell’*arricchimento culturale* dei nostri amati Erasmus prima del _botellon_ e dopo il _chicken&chicken_. Organizza gli eventi più disparati, tutti con un solo obiettivo: far amare Milano a 360°. Con city-tour attraverso la città, dai più conservatori di fronte alla Madonnina a quelli tra i graffiti dei quartieri meneghini, archivi ed esibizioni artistiche, questo gruppo non smette mai di stupire. Come tutti i WG di ESN Milano Statale, anche il Working Group Cultura accoglie ogni proposta ed idea, così da riuscire nel magico obiettivo di **far conoscere divertendo**.
 
 ### Team Comunicazione<i class="em em-small em-art"></i>
-<span class="wgRef">Referente: <a href="#">Matteo di Lorenzo (Borghese)</a></span><br/>
+<span class="wgRef">Referente: <a href="#"></a></span><br/>
 <cite>Specchio, servo delle mie brame, chi ha il miglior banner del reame?</cite>
 Noi siamo bellissimi, _non è nemmeno in discussione_, ma la facciata esterna dell'associazione? Anche, grazie al creativo Team Comunicazione! Non è necessario essere esperti di Photoshop o di altri marchingegni misteriosi: l’originalità è tutto ciò che chiediamo. Per rendere i nostri eventi sempre più accattivanti, per scoprire l’ennesimo sito di banner disponibili online, per impostare delle strategie da seguire con le nostre pagine social (Instagram e Facebook), per decidere _come_ e _quando_ comunicare qualcosa agli Erasmus. Aspettiamo solo te!
 
 ### WG Partnership<i class="em em-small em-handshake"></i>
-<span class="wgRef">Referente (Partnership Manager): <a href="#">Stefano Rossi</a></span><br/>
+<span class="wgRef">Referente (Partnership Manager): <a href="#">Luca Rè</a></span><br/>
 <cite>Siamo fantastici, già lo sappiamo. Facciamolo sapere anche agli altri. (Make it rain, bi\*\*hes!) </cite>
 Essendo ESN un'associazione no-profit, è fondamentale riuscire a trovare persone che riconoscano le nostre potenzialità decidendo di collaborare con noi. Il fine ultimo è sempre quello di *ottenere benefici e vantaggi per gli Erasmus*. Solitamente le partnership che stringiamo seguono due filoni: quello dello sconto destinato ai possessori della ESN card e quello del contributo economico da parte del partner in cambio di visibilità e promozione, ad esempio su sito e pagina Facebook.
 
 Il compito del WG è quello di seguire l’istinto, pensare agli studenti Erasmus ed ai loro bisogni o desideri, per poi contattare chiunque sembri poterli soddisfare, proponendo un incontro con l’obiettivo di raggiungere un accordo a vantaggio di entrambe le parti. Alcuni tra i Partner attuali: _Ryanair, Heetch, International Week, Escape Room_.
 ### WG Webmaster<i class="em em-small em-globe_with_meridians"></i>
-<span class="wgRef">Referente: <a href="#">Filippo Iannone</a></span><br/>
+<span class="wgRef">Referente: <a href="#"></a></span><br/>
 Il WG webmaster si occupa della gestione del sito web di sezione, come l'inserimento degli eventi e dei partner.
 
 
@@ -204,15 +204,15 @@ Il WG webmaster si occupa della gestione del sito web di sezione, come l'inserim
 * * *
 
 ## Presidente
-<span class="brRef">In carica: <a href="#">Ilaria Bergamaschi</a> - <a href="mailto:presidente@esnmilanostatale.it">presidente@esnmilanostatale.it</a></span><br/>
+<span class="brRef">In carica: <a href="#">Michael Donà</a> - <a href="mailto:presidente@esnmilanostatale.it">presidente@esnmilanostatale.it</a></span><br/>
 ## Vicepresidente
-<span class="brRef">In carica: <a href="#">Alessio Santoru</a> - <a href="mailto:vicepresidente@esnmilanostatale.it">vicepresidente@esnmilanostatale.it</a></span><br/>
+<span class="brRef">In carica: <a href="#">Roberta Stragapede</a> - <a href="mailto:vicepresidente@esnmilanostatale.it">vicepresidente@esnmilanostatale.it</a></span><br/>
 ## Segretario
-<span class="brRef">In carica: <a href="#">Laura Salvemini</a> - <a href="mailto:tesoriere@esnmilanostatale.it">segretario@esnmilanostatale.it</a></span><br/>
+<span class="brRef">In carica: <a href="#">Natasha Baccichetto</a> - <a href="mailto:tesoriere@esnmilanostatale.it">segretario@esnmilanostatale.it</a></span><br/>
 ## Tesoriere
 <span class="brRef">In carica: <a href="#">Gianluca Rubino</a> - <a href="mailto:segretario@esnmilanostatale.it">tesoriere@esnmilanostatale.it</a></span><br/>
 ## Rappresentante locale
-<span class="brRef">In carica: <a href="#">Marilù Fortino</a> - <a href="mailto:rl@esnmilanostatale.it">rl@esnmilanostatale.it</a></span><br/>
+<span class="brRef">In carica: <a href="#">Eleonora Catozzi</a> - <a href="mailto:rl@esnmilanostatale.it">rl@esnmilanostatale.it</a></span><br/>
 
 # Canali di comunicazione
 * * *
