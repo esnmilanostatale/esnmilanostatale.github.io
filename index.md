@@ -150,12 +150,12 @@ Il Working Group Eventi ha il compito di creare ed organizzare le serate miglior
 Un esempio è ciò che noi chiamiamo _Travelling Bar_, che potremmo definire come un _Pub Crawl_ spalmato su tutto il semestre, organizzando una serata in un bar diverso almeno due volte al mese. Mettersi in gioco partecipando a questo WG significa insomma utilizzare il proprio spirito da _party animal_  per una buona causa, le proprie abilità da PR per farci rincorrere dai migliori locali ed offrire agli Erasmus dei deal senza pari, oppure semplicemente trovare il modo di andare nel proprio pub preferito pagando la metà.
 
 ### WG Viaggi <i class="em em-small em-airplane"></i>
-<span class="wgRef">Referente: <a href="#">Denise Ragona</a></span><br/>
+<span class="wgRef">Referente: <a href="#">Arianna dall’Amico</a></span><br/>
 <cite>Non siamo così Tumblr da chiamarlo 'Wanderlust', ma è la stessa cosa</cite>
 Come ogni Erasmus che si rispetti, anche i nostri vogliono girare il mondo, dunque eccovi servito il WG Viaggi! Si tratta di un Working Group che ha il compito di pianificare ogni aspetto di viaggi e gite: dai meno entusiasmanti, come l’assicurazione o la prenotazione dei biglietti, a quelli più creativi, come la scelta del posto e del tipo di viaggio. Il programma della giornata è interamente nelle mani di questo WG, che ha il potere anche di decidere cosa farci mangiare, dove e a che ora. Alcuni dei nostri viaggi: _Oktoberfest, Torino, Toscana, Bergamo_.
 
 ### WG Social Erasmus <i class="em em-small em-family"></i>
-<span class="wgRef">Referente: <a href="#">Eleonora Catozzi</a></span><br/>
+<span class="wgRef">Referente: <a href="#">Juri Mainardi</a></span><br/>
 <cite>Il magico mondo in cui "Students helping students" diventa realtà</cite>
 In ESN troviamo due progetti che accomunano tutti i Paesi e tutte le sezioni: [SocialErasmus](https://socialerasmus.esn.org/) ed [ExchangeAbility](http://exchangeability.org/). Il primo è collegato ad 8 cause: _ambiente, salute, educazione, animali, disastri, povertà, discriminazione, violenza_; il secondo ha come obiettivo quello di _promuovere_ e _facilitare_ la mobilità per le persone _affette da disabilità_.
 
@@ -173,19 +173,19 @@ Il Working Group Sport si occupa della *creazione di eventi a tema sportivo*. Un
 Il motto: _Ma se non torni con tre taglie in più sei davvero andato in Erasmus?_
 
 ### WG Tandem<i class="em em-small em-bike"></i>
-<span class="wgRef">Referente: <a href="#">Giusi Discenza</a></span><br/>
+<span class="wgRef">Referente: <a href="#">Anna Mangiaracina</a></span><br/>
 <cite>Perdonate colui che non parla che una lingua: non sa ciò che fa.</cite>
 Che ci siano lingue diverse è il fatto più misterioso del mondo... Vuol dire che per le stesse cose ci sono nomi diversi!
 In questo Working Group ci divertiamo a capire quanti modi diversi ci sono per comunicare, a **parlare lingue** che conosciamo ma anche ad **apprenderne di nuove**. 
 Organizziamo diversi eventi per rendere lo studio di una lingua più rapido ed efficace!
 
 ### WG Cultura<i class="em em-small em-books"></i>
-<span class="wgRef">Referente: <a href="#">Laura Salvemini</a></span><br/>
+<span class="wgRef">Referente: <a href="#">Denise Ragona</a></span><br/>
 <cite>Leonardo non è solo una tartaruga.</cite>
 Questo Working Group si occupa dell’*arricchimento culturale* dei nostri amati Erasmus prima del _botellon_ e dopo il _chicken&chicken_. Organizza gli eventi più disparati, tutti con un solo obiettivo: far amare Milano a 360°. Con city-tour attraverso la città, dai più conservatori di fronte alla Madonnina a quelli tra i graffiti dei quartieri meneghini, archivi ed esibizioni artistiche, questo gruppo non smette mai di stupire. Come tutti i WG di ESN Milano Statale, anche il Working Group Cultura accoglie ogni proposta ed idea, così da riuscire nel magico obiettivo di **far conoscere divertendo**.
 
 ### Team Comunicazione<i class="em em-small em-art"></i>
-<span class="wgRef">Referente: <a href="#"></a></span><br/>
+<span class="wgRef">Referente: <a href="#">Giulia Mazza</a></span><br/>
 <cite>Specchio, servo delle mie brame, chi ha il miglior banner del reame?</cite>
 Noi siamo bellissimi, _non è nemmeno in discussione_, ma la facciata esterna dell'associazione? Anche, grazie al creativo Team Comunicazione! Non è necessario essere esperti di Photoshop o di altri marchingegni misteriosi: l’originalità è tutto ciò che chiediamo. Per rendere i nostri eventi sempre più accattivanti, per scoprire l’ennesimo sito di banner disponibili online, per impostare delle strategie da seguire con le nostre pagine social (Instagram e Facebook), per decidere _come_ e _quando_ comunicare qualcosa agli Erasmus. Aspettiamo solo te!
 
@@ -195,9 +195,10 @@ Noi siamo bellissimi, _non è nemmeno in discussione_, ma la facciata esterna de
 Essendo ESN un'associazione no-profit, è fondamentale riuscire a trovare persone che riconoscano le nostre potenzialità decidendo di collaborare con noi. Il fine ultimo è sempre quello di *ottenere benefici e vantaggi per gli Erasmus*. Solitamente le partnership che stringiamo seguono due filoni: quello dello sconto destinato ai possessori della ESN card e quello del contributo economico da parte del partner in cambio di visibilità e promozione, ad esempio su sito e pagina Facebook.
 
 Il compito del WG è quello di seguire l’istinto, pensare agli studenti Erasmus ed ai loro bisogni o desideri, per poi contattare chiunque sembri poterli soddisfare, proponendo un incontro con l’obiettivo di raggiungere un accordo a vantaggio di entrambe le parti. Alcuni tra i Partner attuali: _Ryanair, Heetch, International Week, Escape Room_.
-### WG Webmaster<i class="em em-small em-globe_with_meridians"></i>
-<span class="wgRef">Referente: <a href="#"></a></span><br/>
-Il WG webmaster si occupa della gestione del sito web di sezione, come l'inserimento degli eventi e dei partner.
+
+### WG ICT<i class="em em-small em-globe_with_meridians"></i>
+<span class="wgRef">Referente: <a href="#">Luca Arrotta</a></span><br/>
+Il WG ICT si occupa della gestione del sito web di sezione, come l'inserimento degli eventi e dei partner.
 
 
 # Board
