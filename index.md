@@ -163,8 +163,9 @@ Ma questo Working Group è noioso come sembra? La risposta è no, questo è un W
 
 Essendo questo WG volontariato a livello puro, i membri del gruppo hanno anche il compito di farsi conoscere da altri enti ed associazioni, in modo da collaborare e trasformare le proprie idee in realtà. Insomma: si creano eventi, si cercano partner, si rende entusiasmante aiutare il prossimo, il Working Group adatto per ripulirsi la coscienza.
 Alcune proposte: _pulizia graffiti, giornata al canile, corso di difesa personale, mensa dei poveri_.
+
 ### WG Sport <i class="em em-small em-soccer"></i>
-<span class="wgRef">Referente: <a href="#">Elena Carella</a></span><br/>
+<span class="wgRef">Referente: <a href="#">Giulia Mirabella</a></span><br/>
 <cite>Quante calorie ci sono nei due drink dell’Alcatraz? Quante corse intorno al duomo mi aspettano per smaltire il kebab del giorno dopo?</cite>
 Il Working Group Sport si occupa della *creazione di eventi a tema sportivo*. Uno degli eventi maggiormente riusciti è il cosiddetto Get Fit, dove ESNer ed Erasmus passano una mattinata od un pomeriggio facendo esercizio, per esempio correndo a Parco Sempione.  
 
