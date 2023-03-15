@@ -1,0 +1,1034 @@
+<!--
+  Questa era la pagina interattiva dedicata alla survival guide che si può visualizzare qui: https://milanostatale.esn.it/survival-guide
+  Questo codice rimane qui per reference in caso si voglia utilizzare qualcosa di simile. Anche per memoria storica e tenerlo attivo se servisse l'adattamento con del contenuto aggiornato.
+
+  Gianluca Rubino
+  ESN Milano Statale
+-->
+<link href="https://stackedit.io/style.css" rel="stylesheet" />
+<style type="text/css">
+  .survival-guide {
+    border: 0
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-bottom: 0
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  th {
+    text-align: center
+  }
+
+  #main-index {
+    display: none;
+  }
+
+  #contents {
+    margin-top: 16px;
+  }
+
+  .sidenav {
+    width: 250px;
+    position: fixed;
+    z-index: 101;
+    top: 215px;
+    bottom: 0;
+    left: 0;
+    background: #ffffff;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding-left: 8px;
+  }
+
+  .sidenav a {
+    /*padding: 6px 8px 6px 16px;*/
+    text-decoration: none;
+    /*font-size: 25px;*/
+    color: #2196F3;
+    display: block;
+  }
+
+  .sidenav a:hover {
+    color: #064579;
+  }
+
+  .main {
+    margin-left: 250px;
+    /* Same width as the sidebar + left position in px */
+    /*font-size: 28px;  Increased text to enable scrolling */
+    padding: 0px 16px;
+  }
+
+  /*@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}*/
+</style>
+<!--<p><iframe class="survival-guide" height="480" src="https://drive.google.com/file/d/1j1K1RKNPgZAUf08oeekALJ_tqHwvLqc7/preview" width="100%"></iframe></p>-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript">
+  $(window).scroll(function () {
+    var scrollTop = $(window).scrollTop();
+    if (scrollTop <= 215) {
+      $('.sidenav').css('top', 215 - scrollTop);
+      $("#contents").css("margin-top", "16px");
+    }
+    else {
+      $('.sidenav').css('top', 0);
+      $("#contents").css("margin-top", "8px");
+    }
+
+    if (scrollTop + $(window).height() >= $("footer").offset().top) {
+      $(".sidenav").css("bottom", ($(window).scrollTop() + $(window).height() - $("footer").offset().top) + "px");
+    } else {
+      $(".sidenav").css("bottom", "0");
+    }
+  });
+
+  onResize = function () {
+    if ($(window).width() < 650) {
+      $(".sidenav").css("display", "none")
+      $("#main-index").css("display", "block")
+      $(".main").css("margin-left", "0px")
+    } else {
+      $("#main-index").css("display", "none")
+      $(".sidenav").css("display", "block")
+      $(".main").css("margin-left", "250px")
+    }
+  }
+
+  $(document).ready(onResize)
+  $(window).resize(onResize);
+</script>
+<div class="sidenav">
+  <h1 id="contents">Contents</h1>
+  <ul>
+    <li><a href="#welcome-to-milan">Welcome to Milan</a></li>
+    <li><a href="#esn">ESN</a>
+      <ul>
+        <li><a href="#esn-milano-statale">ESN Milano Statale</a></li>
+        <li><a href="#esncard">ESNcard</a></li>
+        <li><a href="#buddy-system">Buddy System</a></li>
+        <li><a href="#how-to-register-to-our-events">Events</a></li>
+      </ul>
+    </li>
+    <li><a href="#arrivals-and-transportation">Arrivals and Transportation</a></li>
+    <li><a href="#universit%C3%A0-degli-studi-di-milano">University</a>
+      <ul>
+        <li><a href="#one-of-the-youngest-university-in-italy">History</a></li>
+        <li><a href="#university-office-hours-and-infopoint">University office hours and Infopoint</a></li>
+      </ul>
+    </li>
+    <li><a href="#accomodation">Accomodation</a></li>
+    <li><a href="#about-milan">About Milan</a>
+      <ul>
+        <li><a href="#duomo">Duomo</a></li>
+        <li><a href="#castello-sforzesco">Castello Sforzesco</a></li>
+        <li><a href="#piazzale-cadorna">Piazzale Cadorna</a></li>
+        <li><a href="#piazza-affari-%E2%80%93-borsa-italiana">Piazza Affari - Borsa Italiana</a></li>
+        <li><a href="#teatro-alla-scala">Teatro alla Scala</a></li>
+        <li><a href="#palazzo-reale">Palazzo Reale</a></li>
+        <li><a href="#piazza-gae-aulenti">Piazza Gae Aulenti</a></li>
+        <li><a href="#navigli">Navigli</a></li>
+        <li><a href="#cimitero-monumentale">Cimitero Monumentale</a></li>
+        <li><a href="#san-siro-stadio">San Siro Stadio</a></li>
+        <li><a href="#tre-torri--citylife">Tre Torry/Citylife</a></li>
+        <li><a href="#arco-della-pace">Arco della Pace</a></li>
+        <li><a href="#basilica-di-santambrogio">Basilica di Sant&rsquo;Ambrogio</a></li>
+        <li><a href="#santa-maria-delle-grazie">Santa Maria delle Grazie</a></li>
+      </ul>
+    </li>
+    <li><a href="#what-to-do-in-milan">What to do in Milan</a>
+      <ul>
+        <li><a href="#milans-best-parks">Milan&rsquo;s best parks</a></li>
+        <li><a href="#do-you-like-murales">Murales in Milan</a></li>
+        <li><a href="#milans-museums-guide">Milan&rsquo;s Museums Guide</a></li>
+      </ul>
+    </li>
+    <li><a href="#tips--tricks">Tips &amp; Tricks</a>
+      <ul>
+        <li><a href="#weather">Weather</a></li>
+        <li><a href="#currency">Currency</a></li>
+        <li><a href="#milanese-people">Milanese people</a></li>
+        <li><a href="#language">Language</a></li>
+        <li><a href="#italian-festivity">Italian Festivity</a></li>
+      </ul>
+    </li>
+    <li><a href="#contacts">Contacts</a></li>
+  </ul>
+</div>
+<div class="stackedit__html main">
+  <p><a href="https://drive.google.com/file/d/1XOwL8TL0GQqG48tozBbBdQq7IneLJ69X/view?usp=sharing">Get the pdf
+      version</a></p>
+  <div id="main-index">
+    <h1 id="contents-main">Contents</h1>
+    <ul>
+      <li><a href="#welcome-to-milan">Welcome to Milan</a></li>
+      <li><a href="#esn">ESN</a></li>
+      <li><a href="#arrivals-and-transportation">Arrivals and Transportation</a></li>
+      <li><a href="#universit%C3%A0-degli-studi-di-milano">University</a></li>
+      <li><a href="#accomodation">Accomodation</a></li>
+      <li><a href="#about-milan">About Milan</a></li>
+      <li><a href="#what-to-do-in-milan">What to do in Milan</a></li>
+      <li><a href="#tips--tricks">Tips &amp; Tricks</a></li>
+      <li><a href="#contacts">Contacts</a></li>
+    </ul>
+  </div>
+  <h1 id="welcome-to-milan">Welcome to Milan</h1>
+  <p><img alt="welcome_to_milan.png"
+      src="https://storage.googleapis.com/slite-api-files-production/files/7984fef2-4566-47c7-89b9-7f90ad64953b/welcome_to_milan.png" />
+  </p>
+  <p>If you are reading this guide, it means that you are coming to Milan for your Erasmus, so congratulations!</p>
+  <p>In Italy we care a lot about making people feel at home, and we hope that the ESN Milano Statale crew will be able
+    to give you that warm welcome you all deserve!</p><br /><br /><br />&nbsp;<h1 id="esn">ESN</h1>
+  <p><img alt="ESN_logo.png"
+      src="https://storage.googleapis.com/slite-api-files-production/files/e1fe809c-1fbf-440a-88e0-2ab6cba8704a/ESN_logo.png" />
+  </p>
+  <p>Erasmus Student Network (ESN) is the biggest student association in Europe. It was born on the 16<sup>th</sup>
+    October 1989 and legally registered in 1990 for supporting and developing student exchange.</p>
+  <p>We are present in more than 1000 Higher Education Institutions from 41 countries.</p>
+  <p>We have around 15,000 active members that are in many sections supported by so-called buddies mainly taking care of
+    international students.</p>
+  <p>Thus, ESN involves around 40,000 young people offering its services to around 350,000 international students every
+    year.</p>
+  <p>ESN is operating on three levels: local, national, and international.<br /><img alt="europe_img.png"
+      src="https://storage.googleapis.com/slite-api-files-production/files/77f17a07-424f-402b-b5fe-cba38737b924/europe_img.png" />
+  </p>&nbsp;<h2 id="esn-a-milano-unita">ESN a Milano unita</h2>
+  <p>Sometimes we work together with the other ESN sections of Milan: Bicocca, Bocconi, IULM, Politecnico, Unicatt.</p>
+  <p><img alt="milano_unita.jpg"
+      src="https://storage.googleapis.com/slite-api-files-production/files/4c102d05-6c45-4e39-83b1-9197797d01f7/milano_unita.jpg" />
+  </p>&nbsp;<h2 id="esn-milano-statale">ESN Milano Statale</h2>
+  <p><img alt="milano_statale.png"
+      src="https://storage.googleapis.com/slite-api-files-production/files/6e7ca99b-8b26-48bd-b46f-6cb8cfbd5175/milano_statale.png" />
+  </p>
+  <p>ESN Milano Statale is the ESN section of the Università degli Studi di Milano, and its headquarter is inside the
+    University building (<em>via Festa del Perdono 7</em>).</p>
+  <p>We are a group of students and we organize any kind of activities for the Erasmus, from the recreative ones (like
+    traveling bar), to the more cultural ones (like city tours and exhibitions) but also sport tournaments, social
+    inclusion activities and trips all over Italy.</p>
+  <p>We take our volunteering as a mission: our goal is to create the best experience possible in Milan for our Erasmus
+    students.</p>&nbsp;<h2 id="esncard">ESNcard</h2>
+  <p>Our mission is to represent international students, thus provide opportunities for cultural understanding under the
+    principle of Students Helping Students.</p>
+  <p><img alt="ESNcard.jpg" class="center"
+      src="https://storage.googleapis.com/slite-api-files-production/files/42ad1c12-39f5-4e44-b9b3-f24e1187d063/ESNcard.jpg" />
+  </p>
+  <p>With the ESNcard</p>
+  <ul>
+    <li>You can join all our activities (dinners, trips, parties, city tous and much more!);</li>
+    <li>You can benefit of our agreements;</li>
+    <li>You can get a ton of discounts;</li>
+    <li>The ESNcard is valid <strong>all over Europe!</strong></li>
+  </ul>
+  <p>So&hellip;what are you waiting for? Get your card at our <strong>ESN Office</strong> (<em>via Festa del Perdono
+      7</em>)!</p>&nbsp;<h3 id="some-of-our-partners">Some of our partners</h3>
+  <p><img alt="partners.PNG"
+      src="https://storage.googleapis.com/slite-api-files-production/files/26a50cf9-0368-4231-a5d7-c2f8f5aa0abf/partners.PNG" />
+  </p>&nbsp;<h3 id="do-you-want-to-party">Do you want to party?</h3>
+  <p>Get your ESNcard and join us with the special prices of our partner</p>
+  <p><img alt="image.png"
+      src="https://storage.googleapis.com/slite-api-files-production/files/f9aea303-ad5e-4aa1-a5cc-0559f12f6666/image.png" /><br /><img
+      alt="a.PNG"
+      src="https://storage.googleapis.com/slite-api-files-production/files/0a30a285-6a09-4f71-b898-14d476f0688c/a.PNG" />
+  </p>&nbsp;<h3 id="partners-map">Partners map</h3>
+  <p>Here you can see all the partners that ESN Milano Statale has around Milan, we have prepared a Google map for you:
+  </p><iframe height="480" src="https://www.google.com/maps/d/u/0/embed?mid=1dfGJIym36ELftk3LWlKybbO3f28BM7iE"
+    width="640"></iframe><br />&nbsp;<h3 id="how-to-use-the-esncard">How to use the ESNcard</h3>
+  <p>To <strong>use the card</strong> and to see more partners all around Milan and Europe go to <a
+      href="http://www.esncard.org/"><u>www.esncard.org</u></a> and register your card!<br /><img alt="image.png"
+      src="https://storage.googleapis.com/slite-api-files-production/files/aadf3712-8efc-4779-bc47-235a362deebd/image.png" />
+  </p>&nbsp;<h2 id="buddy-system">Buddy System</h2>
+  <p><img alt="b.jpg" class="center"
+      src="https://storage.googleapis.com/slite-api-files-production/files/0dc2fc83-601b-4e04-8e61-f2c047f7d937/b.jpg" />
+  </p>
+  <p>Do you feel scared of being in a new and an unknown city? Don&rsquo;t worry, we&rsquo;re here to help you to feel
+    at home also on the first day!</p>
+  <p>You have just to register to our Papaya Buddy System: <a
+      href="https://papaya.iter-idea.com/">https://papaya.iter-idea.com/#/auth</a></p>
+  <p>The <strong>Buddy Program</strong> is a <strong>program</strong> that pairs local students with international and
+    exchange students.</p>
+  <p>The program provides an excellent opportunity to meet students from other cultures and to improve language skills.
+  </p>
+  <p>One of our volunteers will be your buddy and your first friend!</p>
+  <p>You can ask to him/her everything you want, you can hang out with him/her and start to know new people from the
+    first day of your Erasmus!</p>&nbsp;<h2 id="how-to-register-to-our-events">How to register to our events</h2>
+  <p>To register to our events, you usually have to pass to our office to pay and register for an event.</p>
+  <p>But we have also other ways to get you register easily. We usually use:</p>
+  <ul>
+    <li>
+      <p>Google forms;</p>
+    </li>
+    <li>
+      <p>Bank Transfers;</p>
+    </li>
+    <li>
+      <p>PayPal<br />To pay you can directly send money to <a
+          href="mailto:tesoriere@esnmilanostatale.it">tesoriere@esnmilanostatale.it</a> or connect to this link: <a
+          href="http://paypal.me/esnmilanostatale">http://paypal.me/esnmilanostatale</a>.<br /><u>Pay attention</u>: on
+        PayPal it is necessary to pay an increased fee due the commissions. Just ask to our staff!</p>
+    </li>
+    <li>
+      <p>Verse<br />A partnership between ESN Italia and Verse has recently been created to facilitate payments.</p>
+      <p>Verse is a service that allows Erasmus to pay online for any need. For exchanges of money between Verse users
+        there are no commissions, this makes the service convenient</p>
+      <p>In addition, everyone can exchange money according to their needs. The result is a gain not only for the
+        exchange between the ESN section and the interested parties, but also among the users themselves.</p>
+      <p>This is the <a href="https://verse.me/download?ref=7QTBPN">link</a> to use and to download the application.</p>
+      <p>This is the <a href="https://verse.me/pay?to=2n1h8taa3eb8lfi9d3kg">link</a> of ESN Milano Statale to pay and
+        register to our events.</p>
+    </li>
+  </ul><br />You can always be <u>updated about all our events </u>here:<ul>
+    <li><a href="https://www.facebook.com/milanostatale.esn/?ref=br_rs">Facebook</a></li>
+    <li><a href="https://www.instagram.com/esnmilanostatale/?hl=it">Instagram</a></li>
+    <li>ESN Milano Statale <a href="https://milanostatale.esn.it/">website</a></li>
+    <li>WhatsApp and Facebook Groups that we change every semester.</li>
+  </ul>
+  <p>Or you can ask to our staff to get more informations</p><br /><br /><br />&nbsp;<h1
+    id="arrivals-and-transportation">Arrivals and Transportation</h1>
+  <p><img alt="d.png"
+      src="https://storage.googleapis.com/slite-api-files-production/files/939188b3-8223-412d-8da7-38f61107cb6a/d.png" />
+  </p>
+  <h2 id="bergamo-orio-al-serio-to-milan-central-station">Bergamo Orio al Serio to Milan Central Station</h2>
+  <p>Bergamo Orio al Serio airport is 45km from the city center of Milan and it has 1 terminal.</p>
+  <table>
+    <thead>
+      <tr>
+        <th align="center">Bus</th>
+        <th align="center">Train</th>
+        <th align="center">Taxi</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td align="center">Service operated by <a href="https://autostradale.it/?lang=en-GB">Autostradale</a>, <a
+            href="https://www.terravision.eu/?noredirect=en_US">Terravision</a> or <a
+            href="https://www.milano-aeroporti.it/orio-shuttle/en/index.html">Orio Shuttle</a>.<br />The serve is
+          provided from 4:35 until 23:40 every 20/30 minutes.<br />The trip takes 50 minutes.<br />One ticket costs
+          10&euro; on the bus and up to &euro;6 online.</td>
+        <td align="center">There is no train from this airport</td>
+        <td align="center">Fixed rate from &euro;100 for 1-3 people and from &euro;110 for 4-6 people</td>
+      </tr>
+    </tbody>
+  </table>&nbsp;<h2 id="milano-malpensa-to-milan-central-station">Milano Malpensa to Milan Central Station</h2>
+  <p>Malpensa airport is 50km from the city center of Milan and it has 2 terminals.</p>
+  <table>
+    <thead>
+      <tr>
+        <th align="center">Bus</th>
+        <th align="center">Train</th>
+        <th align="center">Taxi</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td align="center">Service operated by <a href="https://autostradale.it/?lang=en-GB">Autostradale</a>, <a
+            href="https://www.terravision.eu/?noredirect=en_US">Terravision</a> or <a
+            href="https://www.malpensashuttle.it/en/index.html">Malpensa Shuttle</a>.<br />The serve is provided from
+          6:10 until 00:10 every 20 minutes.<br />The trip takes 50 minutes.<br />One ticket costs 10&euro; on the bus
+          and online.</td>
+        <td align="center">Service operated by<br /><a href="https://www.malpensaexpress.it/en/">Malpensa Express</a>
+          from 5:37 to 22:37. The trip takes 54 minutes.<br />One ticket costs &euro;13.</td>
+        <td align="center">It costs around &euro;90.</td>
+      </tr>
+    </tbody>
+  </table>&nbsp;<h2 id="milano-linate-to-milan-central-station">Milano Linate to Milan Central Station</h2>
+  <p>Linate airport is the closest: just 7km from the city center of Milan and it has 1 terminal. It is the only airport
+    reachable with the urban transport ticket.</p>
+  <table>
+    <thead>
+      <tr>
+        <th align="center">Bus</th>
+        <th align="center">Train</th>
+        <th align="center">Taxi</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td align="center">Service operated by Air Bus Linate or Linate Shuttle.<br />The serve is provided from 6:30
+          until 23:30 every 30 minutes.<br />The trip takes 25 minutes.<br />One ticket costs 5&euro; on the bus and
+          online.<br /><br /><strong>PUBLIC TRANSPORT</strong> LINE 73 (to Duomo)<br />Departures every 10
+          minutes.<br />The trip takes 30 minutes.<br />One ticket costs &euro;2,00.</td>
+        <td align="center">There is no train from this airport</td>
+        <td align="center">It costs around &euro;40.</td>
+      </tr>
+    </tbody>
+  </table>&nbsp;<h2 id="public-transport-tickets">Public transport tickets</h2>
+  <ul>
+    <li>Urban ticket: &euro;2,00 (lasts for 90&rsquo;)</li>
+    <li>Daily ticket: &euro;7 (it is valid for 24h from the first validation. It&rsquo;s without limit on the number of
+      trips)</li>
+    <li>3 days ticket: &euro;12</li>
+    <li>Cumulative 10 tickets: &euro;18 (10 Urban Tickets lasts for 90&rsquo; each)</li>
+    <li>Weekly subscription: &euro;17</li>
+    <li>Monthly subscription: &euro;22 (only for under 26 yo otherwise &euro;39)</li>
+    <li>Annual subscription: &euro;200 (only for under 26 yo otherwise &euro;330)</li>
+  </ul>
+  <p>Other info and the updated timetable can be found on <strong>Google Maps</strong>, <a
+      href="http://www.atm.it/">www.atm.it</a> and the apps <strong>Moovit</strong>, <strong>ATM Milano Official
+      App</strong> and <strong>Citymapper</strong>.</p>
+  <p>The metro service starts around 5:30 and ends around 00:30. During the night the Metro service is not active, but
+    there are Replacement Buses.</p>
+  <p>You can find a detailed map of Milan&rsquo;s underground map <a
+      href="https://www.atm.it/it/ViaggiaConNoi/PublishingImages/schema%20rete%20web_stibm.jpg">here</a>.<img
+      alt="Milan’s underground map"
+      src="https://www.atm.it/it/ViaggiaConNoi/PublishingImages/schema%20rete%20web_stibm.jpg" /></p>&nbsp;<h2
+    id="taxi">Taxi</h2>
+  <p>Taxi services in Milan are quite expensive, so we suggest to use public transport service.</p>
+  <p>By the way, there are some numbers in case of need (they work 24h):</p>
+  <ul>
+    <li>024040</li>
+    <li>025353</li>
+    <li>026969</li>
+    <li>028585</li>
+  </ul>
+  <p>You can also use several apps for the taxi service: <strong>WeTaxi</strong>, <strong>MyTaxi</strong>,
+    <strong>FreeNow</strong>, <strong>AppTaxi</strong>, <strong>Uber</strong>. With these apps you do not need cash and
+    you can pay directly via app.</p>
+  <p>&nbsp;</p>
+  <h2 id="car-sharing">Car Sharing</h2>
+  <p>Milan has the largest car sharing service in Italy, one of the most competitive in Europe, with 5 operators in
+    service and almost 3000 cars in circulation.</p>
+  <p>Free floating:</p>
+  <ul>
+    <li><a href="https://www.share-now.com/">Car2Go</a></li>
+    <li><a href="https://www.share-now.com/">DriveNow</a></li>
+    <li><a href="https://enjoy.eni.com/en/milano/home">Enjoy</a></li>
+  </ul>
+  <p>Station-based:</p>
+  <ul>
+    <li><a href="https://www.e-vai.com/en/">E-Vai</a></li>
+    <li><a
+        href="https://benvenuto.ubeeqo.com/clp/brand/?utm_source=google&amp;utm_medium=cpc&amp;&amp;utm_term=Ubeeqo&amp;utm_campaign=Brand%2BOPEN%2BITA%2BALL%2BSPART%2BADW%2BNM&amp;gclid=EAIaIQobChMIz4WjgLT66wIVgdGyCh14qgOBEAAYASAAEgKMR_D_BwE&amp;gclsrc=aw.ds">Ubeeqo</a>
+    </li>
+  </ul>
+  <p>&nbsp;</p>
+  <h2 id="bike-sharing">Bike Sharing</h2>
+  <p>Free floating:</p>
+  <ul>
+    <li><a href="https://www.ridemovi.com/">Mobike</a></li>
+  </ul>
+  <p>Station-based:</p>
+  <ul>
+    <li><a href="https://www.bikemi.com/en/homepage.aspx">BikeMi</a></li>
+  </ul>
+  <p>&nbsp;</p>
+  <h2>Scooter Sharing</h2>
+  <ul>
+    <li><a href="https://www.cityscoot.eu/en/milano/">Cityscoot</a></li>
+    <li><a href="https://www.ecooltra.com/en/">eCooltra</a></li>
+    <li><a href="https://www.govolt.it/en/index/">GoVolt</a></li>
+    <li><a href="https://mimoto.it/">MiMoto</a></li>
+    <li><a href="https://www.zigzagsharing.com/en/">ZigZag</a></li>
+  </ul>
+  <p>&nbsp;</p>
+  <h2 id="electric-kick-scooter-sharing">Electric Kick Scooter Sharing</h2>
+  <ul>
+    <li><a href="https://www.bitmobility.it/">Bit</a></li>
+    <li><a href="https://ridedott.com/">Dott</a></li>
+    <li><a href="https://www.li.me/en-us/home">Lime</a></li>
+    <li><a href="https://www.voiscooters.com/">Voi</a></li>
+    <li><a href="https://www.wind.co/italy">Wind</a></li>
+  </ul>
+  <p>&nbsp;</p>
+  <h2 id="come-late-at-night">Come late at night</h2>
+  <p>Coming home at night it&rsquo;s super easy in Milan (although not recommended).</p>
+  <p>Metro lines are open from 5:30 am to 00:30 am.</p>
+  <p>When metro lines are closed there are several buses that you can use, you can find all the informations on the <a
+      href="https://www.atm.it/en/ViaggiaConNoi/Pages/NightService.aspx">ATM Milano website</a>.</p>
+  <br /><br /><br />&nbsp;<h1 id="università-degli-studi-di-milano">Università degli Studi di Milano</h1>
+  <p><img alt="e.png"
+      src="https://storage.googleapis.com/slite-api-files-production/files/3c9ae530-0bae-4ee1-8ab6-abdbb7ade08b/e.png" />
+  </p>
+  <h2 id="one-of-the-youngest-university-in-italy">One of the youngest university in Italy</h2>
+  <p>Also known as &lsquo;La Statale&rsquo;, the University of Milan is, relatively speaking, one of Italy&rsquo;s
+    younger university institutions. It was founded in 1924 thanks to the tenacious efforts of doctor and gynaecologist
+    Luigi Mangiagalli, who in creating La Statale, realised his long-held dream of building a university for
+    Lombardy&rsquo;s regional capital.</p>&nbsp;<h2 id="the-founder">The founder</h2>
+  <p>A representative of the Chamber of Deputies in 1902 and later mayor of Milan, Mangiagalli, together with a group of
+    Milanese members of the Association for the Promotion of High Culture, set about creating the city&rsquo;s very
+    first university.</p>&nbsp;<h2 id="university-system">University system</h2>
+  <p>Another key step forward came with the reform of the university system which introduced the distinction between the
+    Laurea triennale (Bachelor&rsquo;s degree) and the Laurea magistrale(Master&rsquo;s degree). Since the reform was
+    first applied by the University in the 2001-2002 academic year, the number of degree courses on offer has increased
+    from 47 to 74.</p>&nbsp;<h2 id="university-office-hours-and-infopoint">University office hours and Infopoint</h2>
+  <p>As international student you can contact directly the Welcome Desk by writing to: <a
+      href="mailto:international.students@unimi.it"><u>international.students@unimi.it</u></a></p>
+  <p>If you need to call the University from abroad the number is 0039 056676357, the cost may vary based on you
+    contract. The service is available from Monday to Friday, 9am to 5pm.</p>
+  <p>The International Relations Office is open every day from Monday to Friday from 9am to 12am. You can find the
+    Office on the first floor of the main garden in Via Festa del Perdono 7 taking the stairs on your right after the
+    main entrance, no booking needed.</p>
+  <p>You can book an appointment with the Administration Office by logging into InfoStudenti services, if you do not
+    have an account you can freely create one on the Unimi website. If you don&rsquo;t have an appointment the Office is
+    open with free-access every Monday-Wednesday-Friday from 9-12am. The International Desk is located in Via Santa
+    Sofia, 9.</p><br /><br /><br />&nbsp;<h1 id="accomodation">Accomodation</h1>
+  <p><img alt="f.png"
+      src="https://storage.googleapis.com/slite-api-files-production/files/027a4ca8-c366-4da0-9e63-f9f0716f6f34/f.png" />
+  </p>
+  <p>Finally! You, your Erasmus documents and the luggage are ready, there is only one thing missing: where are you
+    going to sleep?</p>
+  <p>We know that finding a house or a room (or even just a bed) in Milan seems to be a huge adventure, but we are here
+    to help you! Scrolling down you will find some good solutions. For example, you can start thinking to the
+    Accommodations of the Università degliStudi di Milano!</p>&nbsp;<h2 id="residenza-bassini">Residenza Bassini</h2>
+  <p><img alt="g.png" class="center"
+      src="https://storage.googleapis.com/slite-api-files-production/files/c30f386a-533f-49fd-995e-06a1f42ff6b9/g.png" /><br />Street
+    Bassini, 36/38 &ndash; Città Studi<br />Public transport: tram 23, 33; filobus 93; MM2 Lambrate.<br />Phone number:
+    02.26684980</p>&nbsp;<h2 id="residenza-plinio">Residenza Plinio</h2>
+  <p><img alt="h.jpg" class="center"
+      src="https://storage.googleapis.com/slite-api-files-production/files/86d1b98c-8cd9-43d5-880a-96678da44e41/h.jpg" /><br />via
+    Plinio, 44- 20129<br />Public transport: tram 33; Autobus 92; Filobus 90/91<br />Phone number: 02.29512700</p>&nbsp;
+  <h2 id="residenza-ripamonti">Residenza Ripamonti</h2>
+  <p><img alt="i.png" class="center"
+      src="https://storage.googleapis.com/slite-api-files-production/files/8e96714a-da05-4a22-8d94-111db674d3e8/i.png" /><br />via
+    Muzio Attendolo detto Sforza, 6 &ndash; 20141<br />Public transport: tram 24, bus 33<br />Phone number: 371/1386021
+  </p>&nbsp;<h2 id="residenza-santa-sofia">Residenza Santa Sofia</h2>
+  <p><img alt="j.png" class="center"
+      src="https://storage.googleapis.com/slite-api-files-production/files/d2312119-bce0-4b93-a2ca-627131b25c57/j.png" /><br />Via
+    Santa Sofia, 9<br />Public transport: tram 24, 16; autobus 94; MM3 Missori, Crocetta<br />Phone number: 02.5830.0885
+  </p>&nbsp;<h2 id="residenza-canzio">Residenza Canzio</h2>
+  <p><img alt="k.png" class="center"
+      src="https://storage.googleapis.com/slite-api-files-production/files/3faf66cc-deb0-4967-8563-5d41a9e5f651/k.png" /><br />via
+    Canzio, 4 &ndash; 20131<br />Phone number: 02.29401970</p>&nbsp;<h2 id="residenza-cascina-codazza">Residenza Cascina
+    Codazza</h2>
+  <p><img alt="l.png" class="center"
+      src="https://storage.googleapis.com/slite-api-files-production/files/823a1586-7f8c-4ab9-9b59-e5048da3b14f/l.png" /><br />via
+    Pierre e Marie Curie<br />26900 Lodi</p>&nbsp;<p>For more information take a look here: <a
+      href="https://www.unimi.it/en/study/financial-support/accommodation/residences">https://www.unimi.it/en/study/financial-support/accommodation/residences</a>
+  </p>&nbsp;<h2 id="esn-partners">ESN Partners</h2>
+  <p>Moreover, now that you are with ESN you can sleep peacefully in every sense! Indeed, ESN has a partnership with the
+    agency Spotahome: the ultimate in international, mid-to-long term accommodation.</p>
+  <p>Their goal is to save you as much time, stress and money as possible when looking for your Erasmus flat.</p>&nbsp;
+  <p><img alt="m.png" class="center"
+      src="https://storage.googleapis.com/slite-api-files-production/files/0cf58ca0-a71f-458a-8291-2c39fe7ceae7/m.png" /><br />You
+    just have to go on the website <a href="https://www.spotahome.com/">https://www.spotahome.com/</a>.</p>
+  <p>If here you find something suitable to you, ESN gives you a promo code.</p>
+  <p>Using the Promo Code given by ESN Milano Statale you will get a <u>30% discount</u> on the booking fee!</p>
+  <p>Write to one of our staff to get the code!</p>&nbsp;<p><img alt="image.png" class="center"
+      src="https://storage.googleapis.com/slite-api-files-production/files/0670a8ef-de23-4a97-aa1e-50eec632d189/image.png" /><br />Wait!
+    That&rsquo;s not all! ESN offers you also a discount with Uniplaces: the fastest-growing online platform helping
+    students around the world find a home in Europe, which has already booked more than 7 million nights in over 30
+    European cities!</p>
+  <p>You just have to search for the best solution on the website: <a
+      href="https://www.uniplaces.com/">https://www.uniplaces.com/</a>.</p>
+  <p>Then just ask to our staff for the voucher and use it!</p>
+  <p>Easy, right?<br />We are sure that you will find the perfect room soon!</p><br /><br /><br />&nbsp;<h1
+    id="about-milan">About Milan</h1>
+  <p><img alt="image.png"
+      src="https://storage.googleapis.com/slite-api-files-production/files/f180fc59-fc7b-4a98-87c1-00fc186f35c8/image.png" />
+  </p>
+  <h2 id="the-city">The City</h2>
+  <p>Milano is the second most populated city in Italy, with an urban centre that counts more than 1 372 000
+    inhabitants. Universally recognized as the Fashion Capital, the city lays right at the centre of Europe, proving to
+    be a fundamental crossroad for economy and a vivid cultural meltin&rsquo; pot.</p>
+  <p>Boasting the 3rd largest economy in Europe, after Paris and London, a fascinating history and 2 of the most
+    decorated football team in the world: A.C. Milan and F.C. Inter.</p>&nbsp;<h2 id="duomo">Duomo</h2>
+  <p><img alt="image.png" class="center"
+      src="https://storage.googleapis.com/slite-api-files-production/files/5f40276e-9362-419f-a841-c2b851d9e32a/image.png" />
+  </p>
+  <p>The Duomo di Milano is the Gothic cathedral church of Milan, dedicated to St. Mary of the Nativity, with at top the
+    &lsquo;Madonnina Statue&rsquo;, that is visible during the sunny days.</p>
+  <p>This is the symbol for the city of Milan and until a few years ago it was the highest point in the whole city.</p>
+  &nbsp;<h2 id="castello-sforzesco">Castello Sforzesco</h2>
+  <p><img alt="image.png" class="center"
+      src="https://storage.googleapis.com/slite-api-files-production/files/e4d8057f-955f-4ac4-8a41-9de356fb59da/image.png" />
+  </p>
+  <p>The Castello Sforzesco di Milano (in english Sforza Castle) was considered for centuries an emblem of tyranny and
+    foreign domination.</p>
+  <p>It was built from Francesco Sforza, Duke of Milan in the 15th century and now is an incredible museum that you can
+    visit!</p>&nbsp;<h2 id="piazzale-cadorna">Piazzale Cadorna</h2>
+  <p><img alt="image.png" class="center"
+      src="https://storage.googleapis.com/slite-api-files-production/files/1dccfc59-7486-4277-8fff-b9a566a3720c/image.png" />
+  </p>
+  <p>Piazzale Cadorna (Cadorna Square) is dedicated to one of the Italian army chiefs during the First World War, Luigi
+    Cadorna. It is sited in the centre of Milan, near Cadorna Railway Station. In the square is located the sculpture
+    Needle, Thread and Knot (Ago, Filo e Nodo) made at the start of 2000. The sculpture was made by Claes Oldenburg and
+    Coosje van Bruggen.</p>
+  <p>This enormous piece comprises a 19-metre tall steel needle, stuck into the ground, and a multi-colour reinforced
+    fibreglass thread, 86 metres long, that pops up in another point of the square with a knot on its end. It is not a
+    coincidence that the sculpture disappears underground as it features the colours of the first 3 underground lines,
+    linking above and below. One of the new symbols of Milan, it is a tribute to the creative and hardworking nature of
+    the Milanese and Milan fashion.</p>&nbsp;<h2 id="piazza-affari-–-borsa-italiana">Piazza Affari &ndash; Borsa
+    Italiana</h2>
+  <p><img alt="image.png" class="center"
+      src="https://storage.googleapis.com/slite-api-files-production/files/2662b7fa-30fe-4415-a878-ab7f48a70c8d/image.png" />
+  </p>
+  <p>Not too far from the Duomo Cathedral, from the Sforza Castle and from Cadorna there is Piazza Affari, where the
+    Italian Stock Exchange has its headquarters. In the square there is an iconic sculture: it is a marble statue
+    depicting a hand with only its middle finger standing up. If you look closely, you&rsquo;ll see that the other
+    fingers are not flexed, but they look as if they were cut off.</p>
+  <p>The impression is the same nevertheless: an unambiguous &ldquo;giving the finger&rdquo; to the world of bankers and
+    CEOs. The statue bears the title of L.O.V.E., which stands for Libertà, Odio, Vendetta, Eternità (Freedom, Hate,
+    Vengeance, Eternity) and was created in 2010 by the Italian artist Maurizio Cattelan, known for his provocative
+    works. The statue was supposed to stay in Piazza Affari for just a couple of weeks, but the city government decided
+    to keep it there indefinitely.</p>&nbsp;<h2 id="teatro-alla-scala">Teatro alla Scala</h2>
+  <p><img alt="image.png" class="center"
+      src="https://storage.googleapis.com/slite-api-files-production/files/3a688f51-4a3e-45b6-b65b-e4641dca7d10/image.png" />
+  </p>
+  <p>The Teatro alla Scala of Milan is an opera house. It was inaugurated on 3rd August 1778 and originally known as the
+    Nuovo Regio Ducale Teatro alla Scala. Designed by the great neoclassical architect Giuseppe Piermarini, La Scala
+    opened on 3rd August 1778 with Antonio Salieri&rsquo;s opera L&rsquo;Europa riconosciuta, to a libretto by Mattia
+    Verazi.</p>
+  <p>With the ESN card we could get special prices to see shows at Teatro alla Scala, don&rsquo;t miss this opportunity!
+  </p>&nbsp;<h2 id="palazzo-reale">Palazzo Reale</h2>
+  <p><img alt="image.png" class="center"
+      src="https://storage.googleapis.com/slite-api-files-production/files/c60fa8fc-8a55-4f9a-8570-1d0f2229102b/image.png" />
+  </p>
+  <p>With ancient origins and full of history, Palazzo Reale (Royal Palace of Milan) today serves as a cultural centre,
+    hosting also expositions and exhibition.</p>
+  <p>A work also rewarded by the public: with a result that for years has consistently exceeded one million visitors a
+    year, the exhibitions of Palazzo Reale are increasingly leading the ranking of the most visited ones in Italy.</p>
+  &nbsp;<h2 id="piazza-gae-aulenti">Piazza Gae Aulenti</h2>
+  <p><img alt="image.png" class="center"
+      src="https://storage.googleapis.com/slite-api-files-production/files/cf77ba42-deec-4163-8dcc-cee71360d6fe/image.png" />
+  </p>
+  <p>Piazza Gae Aulenti represents the new face of the city, the symbol of a metropolis that is changing and looking
+    ahead to the future. Designed by the Argentine architect Cesar Pelli as a stunning new gateway to Milan, it was
+    inaugurated on December 8th, 2012 and dedicated to the architect and designer Gae Aulenti.</p>
+  <p>A significant accolade to a woman who, thanks to her extraordinary creative talent, managed to distinguish herself
+    in times, and in a profession, that was predominantly male. Paved with slate, it is surrounded by two levels of
+    canopies in iron, wood and glass built in accordance with the principles of eco-sustainability; it is covered with
+    solar panels that provide power for the three adjacent towers.</p>&nbsp;<h2 id="navigli">Navigli</h2>
+  <p><img alt="image.png" class="center"
+      src="https://storage.googleapis.com/slite-api-files-production/files/5f2e31d4-1f83-40cb-a23f-4ebaa11b569a/image.png" />
+  </p>
+  <p>This area is undergoing substantial renovation and is considered one of the most charming residential areas of the
+    city. The neighborhood is always buzzing by day it is the location for many markets, art galleries and craft shops,
+    at night it is illuminated by the lights of masses of bars and restaurants making it one of the most lively and
+    attractive districts of the city.</p>
+  <p>In fact Milano&rsquo;s Navigli canals were set up as a waterway system used to transport people and goods for
+    irrigation.</p>
+  <p>Curiosity: The marble for the construction of the Duomo, which came from the Candoglia quarry, was transported
+    along the Naviglio Grande from the river Toce and Lake Maggiore.</p>&nbsp;<h2 id="cimitero-monumentale">Cimitero
+    Monumentale</h2>
+  <p><img alt="image.png" class="center"
+      src="https://storage.googleapis.com/slite-api-files-production/files/0e281630-d5ab-4855-92b0-138b73a34bb6/image.png" />
+  </p>
+  <p>The Cimitero Monumentale is an authentic open-air museum, freely accessible every day, which regularly hosts
+    readings, concerts and tours. The Monumental Cemetery, more than just a simple cemetery, is an extraordinary outdoor
+    museum. It is as if some of the great sculptors of the 1900s were called together to elaborate and reflect on a
+    particularly demanding theme, to be precise, death.</p>&nbsp;<h2 id="san-siro-stadio">San Siro Stadio</h2>
+  <p><img alt="image.png" class="center"
+      src="https://storage.googleapis.com/slite-api-files-production/files/4a3793d3-0b8a-4fb5-bf1a-2dda235dfe54/image.png" />
+  </p>
+  <p>The San Siro stadium, whose construction was brought about by the then-president of A.C. Milan Piero Pirelli, was
+    built in 1925 in the neighbourhood with which it shares its name. At the beginning it was the official football
+    field for A.C. Milan. In 1947 it became the official location for Inter as well. In 1980, the San Siro stadium was
+    named after Giuseppe Meazza, who had been a football star not only for Inter, for which he made his debut at 17, but
+    for Milan as well.</p>&nbsp;<h2 id="tre-torri--citylife">Tre Torri / Citylife</h2>
+  <p><img alt="image.png" class="center"
+      src="https://storage.googleapis.com/slite-api-files-production/files/40985eb4-6cf3-47cd-8591-6375182c1678/image.png" />
+  </p>
+  <p>A new public plaza and retail centre in the city of Milan. CityLife is a residential, commercial and business
+    district under construction situated a short distance from the old city centre of Milan. Let&rsquo;s focus on the 3
+    skyscrapers:</p>
+  <h3 id="il-dritto-the-straight-one---allianz-tower">Il Dritto (&ldquo;The Straight One&rdquo;) - Allianz Tower</h3>
+  <p><img alt="image.png"
+      src="https://storage.googleapis.com/slite-api-files-production/files/da5ec959-2d76-4ae5-adc0-8a815ef66689/image.png" />
+  </p>
+  <h3 id="lo-storto-the-twisted-one---hadid-generali-tower">Lo Storto (&ldquo;The Twisted One&rdquo;) - Hadid Generali
+    Tower</h3>
+  <p><img alt="image.png"
+      src="https://storage.googleapis.com/slite-api-files-production/files/21a68728-9fee-40fe-9e04-a69b5b3f5382/image.png" />
+  </p>
+  <h3 id="il-curvo-the-curved-one---libeskind-tower">Il Curvo (&ldquo;The Curved One&rdquo;) - Libeskind Tower</h3>
+  <p><img alt="image.png"
+      src="https://storage.googleapis.com/slite-api-files-production/files/559203fd-bb32-4d6d-88ab-060aa6178038/image.png" />
+  </p>&nbsp;<h2 id="arco-della-pace">Arco della Pace</h2>
+  <p><img alt="image.png" class="center"
+      src="https://storage.googleapis.com/slite-api-files-production/files/ba4a6c67-a1e3-414c-8cc6-d104edeef29e/image.png" />
+  </p>
+  <p>In a round square with a metaphysical atmosphere, designed by Vittoriano Viganò, the Arco della Pace is structured
+    like a triumphal arch with three arches, with 4 colossal fluted Corinthian columns and an arch greater than 14.24 m,
+    entirely in granite of Baveno and covered in Crevola d&rsquo;Ossola stone.</p>
+  <p>On the attic was placed the bronze sculptural group of the Sestiga della Pace with four Victories on horseback.</p>
+  &nbsp;<h2 id="basilica-di-santambrogio">Basilica di Sant&rsquo;Ambrogio</h2>
+  <p><img alt="image.png" class="center"
+      src="https://storage.googleapis.com/slite-api-files-production/files/4c6128e6-7cca-4e6b-9c19-5bc5996f3ead/image.png" />
+  </p>
+  <p>Together with the Duomo, the Basilica of Sant&rsquo;Ambrogio is the cradle of history and spirituality in Milano
+    and a treasure trove of sacred art.</p>
+  <p>Great popular devotion revolves around the basilica that has always been a destination</p>
+  <p>for pilgrims and visitors. Today, the Basilica, dedicated to the bishop of Milano, is a magnificent example of
+    Romanesque architecture in Lombardy.</p>&nbsp;<h2 id="santa-maria-delle-grazie">Santa Maria delle Grazie</h2>
+  <p><img alt="image.png" class="center"
+      src="https://storage.googleapis.com/slite-api-files-production/files/8ce2c776-ac1f-4504-b0d6-ee7d9489bece/image.png" />
+  </p>
+  <p>Santa Maria delle Grazie, a UNESCO World Heritage Site and an exceptional testament to Renaissance architecture in
+    Milano, is a fundamental monument for visitors who wish to fully appreciate the historical splendours of the city.
+    The church of Santa Maria delle Grazie is inextricably linked to the unrivalled masterpiece in the convent&rsquo;s
+    former refectory: &ldquo;The Last Supper&rdquo; by Leonardo da Vinci.</p><br /><br /><br />&nbsp;<h1
+    id="what-to-do-in-milan">What to do in Milan</h1>
+  <p><img alt="image.png"
+      src="https://storage.googleapis.com/slite-api-files-production/files/47dac030-7745-4622-bb1c-6c0ccefe6e63/image.png" />
+  </p>
+  <h2 id="milans-best-parks">Milan&rsquo;s Best Parks</h2>
+  <ul>
+    <li>Parco Sempione</li>
+    <li>Giardini Pubblici Indro Montanelli</li>
+    <li>City life park</li>
+    <li>Giardini della Villa Belgiojoso Bonaparte</li>
+    <li>Bosco in città</li>
+    <li>Parco Monte Stella</li>
+  </ul>&nbsp;<h2 id="parco-sempione">Parco Sempione</h2>
+  <p><img alt="image.png" class="center"
+      src="https://storage.googleapis.com/slite-api-files-production/files/bab2b47e-75c7-4391-870f-e3f530d670fa/image.png" />
+  </p>
+  <p>Parco Sempione (&ldquo;Simplon Park&rdquo;) is a large city park set in Milan since 1888. The park is adjacent to
+    the gardens of the Sforza Castle and to the Arch of Peace, two of the</p>
+  <p>main landmarks of Milan. In this park there are the Arena Civica, the public aquarium, and Torre Branca (the Branca
+    Tower).</p>
+  <p>How to get there: M1 (Red Line) Cairoli. Near Castello Sforzesco and Arco della Pace.</p>&nbsp;<h2
+    id="giardini-pubblici-indro-montanelli">Giardini Pubblici Indro Montanelli</h2>
+  <p><img alt="image.png" class="center"
+      src="https://storage.googleapis.com/slite-api-files-production/files/d7eb98b5-b321-41f3-b42b-3050ddcda1a5/image.png" />
+  </p>
+  <p>Giardini Pubblici Indro Montanelli (&ldquo;Indro Montanelli Public Gardens&rdquo;), also known as Giardini Pubblici
+    and Giardini di Porta Venezia. Several monuments and tourist attractions are enclosed within the park.</p>
+  <p>Notable buildings include the Ulrico Hoepli Planetarium the Natural History Museum (1892, Giovanni Cerutti), the
+    17th Century Palazzo Dugnani.</p>
+  <p>How to get there: M1 (Red Line) Porta Venezia.</p>&nbsp;<h2 id="citi-lifes-park">Citi Life&rsquo;s Park</h2>
+  <p><img alt="image.png" class="center"
+      src="https://storage.googleapis.com/slite-api-files-production/files/86c2056f-b633-4104-9671-f98391bd94ab/image.png" />
+  </p>
+  <p>CityLife is a residential, commercial and business district under construction situated a short distance from the
+    old city centre of Milan. The park within the new starchitect district of CityLife will surprise you, for the unique
+    landscape gardening that you won&rsquo;t find anywhere else in Milan that also include a vegetable garden.</p>
+  <p>How to get there: M5 (Purple Line) Tre Torri or M1 (Red Line) Buonarroti.</p>&nbsp;<h2
+    id="giardini-della-villa-belgiojoso-bonaparte">Giardini della Villa Belgiojoso Bonaparte</h2>
+  <p><img alt="image.png" class="center"
+      src="https://storage.googleapis.com/slite-api-files-production/files/954fedb8-8641-44b1-812a-acda79f6bae6/image.png" />
+  </p>
+  <p>In the Giardini della Villa Belgiojoso Bonaparte there is the Palazzo Belgioioso. It is a palatial residence in the
+    city of Milan, completed in 1781 in a Neoclassical style by Giuseppe Piermarini and it was designed by Leopoldo
+    Pollack. The main entrance is on via Palestro, facing the Giardini Pubblici of Porta Venezia, the eastern gate of
+    the city.</p>
+  <p>How to get there: M1 (Red Line) Palestro.</p>&nbsp;<h2 id="parco-monte-stella">Parco Monte Stella</h2>
+  <p><img alt="image.png" class="center"
+      src="https://storage.googleapis.com/slite-api-files-production/files/888df2a2-ea84-4696-a7eb-68e62627eaa1/image.png" />
+  </p>
+  <p>Monte Stella, also informally called Montagnetta di San Siro, is an artificial hill and surrounding city park in
+    Milan. This was an experimental district that was completely designed after the World War. The hill itself was
+    designed by architect Piero Bottoni, who led the team of architects who contributed to the QT8 project. Bottoni
+    dedicated the hill to his wife, Stella.</p>
+  <p>How to get there: M1 (Red Line) QT8.</p>&nbsp;<h2 id="bosco-in-città">Bosco in Città</h2>
+  <p><img alt="image.png" class="center"
+      src="https://storage.googleapis.com/slite-api-files-production/files/fe575c5d-3807-45d6-a7c3-7ccba524e107/image.png" />
+  </p>
+  <p>It is not a garden, and neither a park. It&rsquo;s a real forest in the city! This is the first example in Italy of
+    urban forestation, covering 80 hectare area, with dense forest in alternation with meadows, tracks, and agricultural
+    crops. Without moving far from the centre of Milan, nature lovers can savour long and invigorating walks, or ride
+    their bicycles, in this forest, where you can breathe some real country air.</p>
+  <p>How to get there: with bus 80 (via S. Romanello, Via Novara) or with bus 423 (Via Togni, Via S. Romanello)</p>
+  &nbsp;<h2 id="do-you-like-murales">Do you like Murales?</h2>
+  <p>In Milan there are a lot of streets with tons of beautiful murales. Here we will show you the most important and
+    beautiful ones!</p>
+  <h2 id="vicolo-del-fontanile">Vicolo del Fontanile</h2>
+  <p><img alt="image.png" class="center"
+      src="https://storage.googleapis.com/slite-api-files-production/files/ad43c2b5-b68f-4a44-a6ce-2d7bd9b63c9c/image.png" /><br />Street:
+    Via Gianfranco Zuretti</p>&nbsp;<h2 id="love-seeker-and-heart-sling">Love Seeker and Heart Sling</h2>
+  <p><img alt="image.png" class="center"
+      src="https://storage.googleapis.com/slite-api-files-production/files/c756fe78-80e0-4473-a112-7388b8e59597/image.png" /><br />Artist:
+    Millo<br />Street: Millo &ldquo;Giardino delle culture&rdquo;, Via Morosini 8</p>&nbsp;<h2 id="the-little-prince">
+    The Little Prince</h2>
+  <p><img alt="image.png" class="center"
+      src="https://storage.googleapis.com/slite-api-files-production/files/96bc9ea2-8041-405f-87b6-274bb30cec38/image.png" /><br />Artist:
+    Tony Graffio<br />Street: via Angelo della Pergola 12</p>&nbsp;<h2 id="tango-of-love">Tango of Love</h2>
+  <p><img alt="image.png" class="center"
+      src="https://storage.googleapis.com/slite-api-files-production/files/b188ced3-d961-45d0-ba3b-918b43336f85/image.png" /><br />Artist:
+    Cristian Sonda<br />Street: viale Edoardo Jenner 44</p>&nbsp;<h2 id="cucimilano">Cucimilano</h2>
+  <p><img alt="image.png" class="center"
+      src="https://storage.googleapis.com/slite-api-files-production/files/8548dea4-09e3-47bd-abb0-1f100c5adb58/image.png" /><br />Artist:
+    ZED 1<br />Street: via Benaco 1</p>&nbsp;<h2 id="milans-museums-guide">Milan&rsquo;s Museums Guide</h2>
+  <p>The Municipal Milanese museums offer a rich and varied heritage of great artistic and historical value accessible
+    to all: visitors can follow centuries of art and culture.</p>
+  <p>This guide has been created to briefly describe the Museums in Milan as a practical handbook you can bring always
+    with you!</p>
+  <p>Before continuing to read, you must know the Initiative &ldquo;Sunday at Museum&rdquo;: it consists in the free
+    entry on the first Sunday of every month for all the civic Museums.</p>
+  <p>Milan&rsquo;s best museums:</p>
+  <ul>
+    <li>Museo del Cenacolo Vinciano (The Last Supper Museum)</li>
+    <li>Pinacoteca di Brera (Brera Art Gallery)</li>
+    <li>Museo Civico di Storia Naturale (Natural History Museum)</li>
+    <li>Museo del 900 (the 20th Century Museum)</li>
+    <li>Gallerie d&rsquo;Italia</li>
+    <li>Museo Civico Archeologico (the Archeological Museum)</li>
+    <li>Acquario Civico (Civic Aquarium)</li>
+    <li>Musei del Castello Sforzesco (Museums of the Sforza Castle)</li>
+    <li>Galleria d&rsquo;Arte Moderna (Modern Art Gallery)</li>
+    <li>Museo Astronomico di Brera (the Astronomical Museum of Brera)</li>
+  </ul>&nbsp;<h2 id="museo-del-cenacolo-vinciano-the-last-supper-museum">Museo del Cenacolo Vinciano (The Last Supper
+    Museum)</h2>
+  <p><img alt="a.jpg" class="center"
+      src="https://storage.googleapis.com/slite-api-files-production/files/30b6e87d-5079-4b20-a688-8b0f7a512550/a.jpg" /><br />WHERE:
+    Piazza Santa Maria delle Grazie 2, 20123 Milan<br />WHEN: From 8:15 to 19:00 (last entry at 18.45)<br />WEBSITE: <a
+      href="https://www.cenacolo.it/the-last-supper/">www.cenacolo.it/the-last-supper</a></p>
+  <p>Leonardo da Vinci&rsquo;s The Last Supper (in Italian Il Cenacolo) requires very little introduction since it is
+    one of the most famous works of art in the world, made even more famous by Dan Brown&rsquo;s novel The Da Vinci
+    Code.</p>
+  <p>The mural painting is located in the refectory of the convent of Santa Maria dellaGrazie, which is adjacent to the
+    church of Santa Maria dellaGrazie, together listed as a UNESCO World Heritage Site.</p>
+  <p>The church can be visited free of charge and without prior booking.</p>
+  <p>Since access to The Last Supper is strictly regulated, and only one group of 25 people can visit the refectory
+    every 15 minutes, pre-booking your ticket well in advance is a must.</p>
+  <p>You SHOULD book by phone at +39800990084 (toll-free number) or at +390292800360 (number with charge).</p>&nbsp;<h2
+    id="pinacoteca-di-brera-brera-art-gallery">Pinacoteca di Brera (Brera Art Gallery)</h2>
+  <p><img alt="b.jpg" class="center"
+      src="https://storage.googleapis.com/slite-api-files-production/files/5aa72740-1dfd-4f1f-a3b7-b46d9433ef26/b.jpg" /><br />WHERE:
+    Via Brera 28, 20121 Milan<br />WHEN: From 8:30 to 19:15<br />WEBSITE: <a
+      href="https://pinacotecabrera.org/">www.pinacotecabrera.org</a></p>
+  <p>Brera Art Gallery houses one of the main art collections of Renaissance art in Italy with over 500 works dating
+    from the 14th to the 20th century.</p>
+  <p>Opened to the public in 1809, it is situated in a beautiful 17th century building alongside the Accademia di Belli
+    Arti (Academy of Fine Arts) in the Palazzo di Brera.</p>
+  <p>Amongst the collection are masterpieces by Piero Della Francesca, Raphael, Mantegna, Bellini, Caravaggio,
+    Tintoretto and Veronese. There is a small section on modern art which includes paintings by Modigliani, De Chirico
+    and Carrà.</p>&nbsp;<h2 id="museo-civico-di-storia-naturale-natural-history-museum">Museo Civico di Storia Naturale
+    (Natural History Museum)</h2>
+  <p><img alt="c.jpg" class="center"
+      src="https://storage.googleapis.com/slite-api-files-production/files/cf385591-90d2-41d7-af6d-82a8f1197bc4/c.jpg" /><br />WHERE:
+    Corso Venezia 55, 20121 Milan<br />WHEN: From 9:00 to 17:30<br />WEBSITE: <a
+      href="https://web.comune.milano.it/dseserver/webcity/documenti.nsf/weball/C88F651BBA6944FBC12570BD003C9598?opendocument">www.web.comune.milano.it/museostorianaturale</a>
+  </p>
+  <p>Natural History Museum is the oldest civic museum in Milan with its current building dating back to the late 1800s
+    with hints of neo-Romanesque and neo-Gothic styles, designed by Giovanni Ceruti.</p>
+  <p>The museum is located within the leafy grounds of Giardini Pubblici, a public park situated in the historical
+    centre of Milan near Corso Venezia.</p>
+  <p>It features seven sections that cover everything from the history of mankind to the study of paleontology (with
+    real dinosaur skeletons to view) and zoology: Botany, Entomology, Mineralogy, Palaeontology, Invertebrate and
+    Vertebrate Zoology.</p>
+  <p>PS: there is free entry also every first and third Tuesday of the month from 2 pm to closing.</p>&nbsp;<h2
+    id="museo-del-900-the-20th-century-museum">Museo del 900 (the 20th Century Museum)</h2>
+  <p><img alt="d.jpg" class="center"
+      src="https://storage.googleapis.com/slite-api-files-production/files/78343b67-c9f7-4b97-93bf-584ee8d0c1b8/d.jpg" /><br />WHERE:
+    Palazzo dell&rsquo;Arengario, Piazza Duomo 8, 20123 Milan<br />WHEN: From 9:30 to 19:30 (last entry at
+    18:30)<br />WEBSITE: <a href="https://www.museodelnovecento.org/en/">www.museodelnovecento.org</a></p>
+  <p>Museum of the 20th century is located right in the heart of Milan nearthe famous Duomo. It houses a dedicated
+    exhibition displaying Milan&rsquo;s superb collection of 20th century art.</p>
+  <p>The museum follows the timeline from the beginning of the Century up until today and is a real gem for those
+    fascinated by this period.</p>
+  <p>On view are paintings by Picasso, Modigliani Mondrian, Kandinsky, Boccioni, Carrà, Soffici, De Chirico, Sironi,
+    Martini, Morandi, Fontana, Manzoni and Kounellis, to name a few.</p>
+  <p>PS: there is free entry also every first and third Tuesday of the month from 2 pm to closing.</p>&nbsp;<h2
+    id="gallerie-d’italia">Gallerie d&rsquo;Italia</h2>
+  <p><img alt="e.jpg" class="center"
+      src="https://storage.googleapis.com/slite-api-files-production/files/1ccd240b-be81-4f0a-be85-439927aebc88/e.jpg" /><br />WHERE:
+    Piazza della Scala 6, 20121 Milan<br />WHEN: From 9:30 to 19:30 (last entry at 18:30)<br />WEBSITE: <a
+      href="https://www.gallerieditalia.com/en/milano/">www.gallerieditalia.com</a></p>
+  <p>Galleria d&rsquo;Italia Piazza Scala, a symbol of Milan&rsquo;s rich history, is housed over three adjoining
+    mansions (Anguissola, Beltrami and Brentani), one the former seat of Banca Commerciale Italiana.</p>
+  <p>The design of the museum is truly remarkable, with some of the bank&rsquo;s period furnishings still in place,
+    including some original bank counters which have been tastefully integrated into the design of the new museum. From
+    a closed, off-limits area, the vault provides a glimpse of what cannot be displayed in the gallery rooms. Guided
+    visits to the vault are possible by appointment only, with specialised tour guides.</p>
+  <p>The exhibitions are split into two main periods:</p>
+  <ul>
+    <li>&ldquo;The 19th century exhibition&rdquo;<br />An exhibition that retraces one hundred years of Italian art
+      history from the 19th century.</li>
+    <li>&ldquo;The 20th century exhibition&rdquo;<br />An ambitious project presenting 189 works of art from the 20th
+      century arranged in 12 sections.</li>
+  </ul>&nbsp;<h2 id="museo-civico-archeologico-the-archeological-museum">Museo Civico Archeologico (the Archeological
+    Museum)</h2>
+  <p><img alt="f.jpg" class="center"
+      src="https://storage.googleapis.com/slite-api-files-production/files/451c6724-ab11-4903-9dc1-372dae53e222/f.jpg" /><br />WHERE:
+    Corso Magenta 15, 20123 Milan<br />WHEN: From 14:00 to 17:30<br />WEBSITE: <a
+      href="http://www.museoarcheologicomilano.it/wps/portal/luogo/museoarcheologico">www.museoarcheologicomilano.it</a>
+  </p>
+  <p>Civic Archaeological Museum of Milan is housed within the ex-convent of the Monastero Maggiore combined with the
+    church of San Maurizio. The inner cloisters reveal the remains of a Roman dwelling from the 1st-3rd century, as well
+    as a section of the original Milan city walls and a medieval polygonal tower.</p>
+  <p>The collection covers a wide range of periods, regions and types of objects. From Etruscan statues to coins of
+    ancient Milan (then called Mediolanum), and fromGreek vases to golden rings from the Middle Ages. The Prehistoric
+    and Egyptian sections of the Archaeological Museum are housed in the Sala Visconti of the Castello Sforzesco.</p>
+  <p>PS: there is free entry also every first and third Tuesday of the month from 2 pm to closing.</p>&nbsp;<h2
+    id="acquario-civico-civic-aquarium">Acquario Civico (Civic Aquarium)</h2>
+  <p><img alt="g.jpg" class="center"
+      src="https://storage.googleapis.com/slite-api-files-production/files/a7c8f4cd-529a-435a-b320-bca3df82725e/g.jpg" /><br />WHERE:
+    Viale Gadio 2, 20121 Milan<br />WHEN: From 9:00 to 17:30 (last entry at 17:00)<br />WEBSITE: <a
+      href="http://www.acquariocivicomilano.eu/cms/">www.acquariocivicomilano.eu</a></p>
+  <p>Civic Aquarium of Milan is the third oldest aquarium in Europe.This small but beautiful aquarium, located at the
+    edge of Milan&rsquo;s largest public park, Parco Sempione, houses many varieties of sea creature in well-maintained
+    and clearly labelled display tanks.</p>
+  <p>There are over hundred species of fish, crustaceans, molluscs and echinoderms from the Mediterranean and the Red
+    Sea, plus rare tropical and freshwater fish. The exciting exhibition sequence is heralded, even before going inside,
+    by the fountain featuring the god Neptune masterfully wields his trident, part of the façade decoration. The
+    Aquarium is in fact housed inside a superb Art Nouveau building, with exterior decorations on aquatic themes,
+    arranged around the God of the sea.</p>
+  <p>The building in which the Aquarium is housed is also the location for the Hydrobiological Station and the
+    specialist Library for marine biology and aquatic science, an ideal location for learning more about life in the
+    sea.</p>
+  <p>PS: there is free entry also every first and third Tuesday of the month from 2 pm to closing.</p>&nbsp;<h2
+    id="musei-del-castello-sforzesco-museums-of-the-sforza-castle">Musei del Castello Sforzesco (Museums of the Sforza
+    Castle)</h2>
+  <p><img alt="h.jpg" class="center"
+      src="https://storage.googleapis.com/slite-api-files-production/files/723baf02-a3d4-4d88-be51-e4bf1251617b/h.jpg" /><br />WHERE:
+    Piazza Castello 3, 20121 Milan<br />WHEN: From 9:00 to 17:30 (last entry at 17:00)<br />WEBSITE: <a
+      href="https://www.milanocastello.it/en">www.milanocastello.it</a></p>
+  <p>The Castello Sforzesco is an imposing building dates back as far as 1450, an expression of the Visconti and Sforza
+    courts; it houses a collection of small museums, which are all accessible with the same ticket and will keep you
+    occupied for quite some time:</p>
+  <ul>
+    <li>Antique Furniture &amp; Wooden Sculpture Museum</li>
+    <li>Applied Arts Collection</li>
+    <li>Archaeological Museum (with Egyptian and Prehistoric sections)</li>
+    <li>Museum of Ancient Art</li>
+    <li>Museum of Musical Instruments</li>
+    <li>Pinacoteca (Picture Gallery)</li>
+  </ul>
+  <p>Highlights of the collection are Michelangelo&rsquo;s last sculpture, on which he was working until days before his
+    death, la Rondanini Pietà, and the masterpieces in the Pinacoteca by Mantegna, Canaletto and Tintoretto.</p>
+  <p>On the first Sunday of the month, as part of &ldquo;Sunday at Museum&rdquo;, the admission ticket is reduced at
+    5&euro; for the whole day.</p>
+  <p>Currently, the &ldquo;Milan and Leonardo 500&rdquo; programme is taking place to celebrate the 500th anniversary of
+    the death of Leonardo da Vinci, it includes three different exhibitions:</p>
+  <ul>
+    <li>Sotto l&rsquo;ombra del Moro. La Sala delle Asse (from 16 May 2019 to 19 April 2020)</li>
+    <li>Intorno a Leonardo. Opere grafiche dalle collezioni milanesi (11 September-15 December 2019)</li>
+    <li>Leonardo a Milano (from 16 May 2019 to 19 April 2020)</li>
+  </ul>
+  <p>For more info: <a href="https://www.milanocastello.it/en/content/exhibitions">Leonardo Mai Visto</a>.</p>&nbsp;<h2
+    id="galleria-d’arte-moderna-modern-art-gallery">Galleria d&rsquo;Arte Moderna (Modern Art Gallery)</h2>
+  <p><img alt="i.jpg" class="center"
+      src="https://storage.googleapis.com/slite-api-files-production/files/f95d7347-cbc1-4935-a815-39e9b97587cb/i.jpg" /><br />WHERE:
+    Via Palestro 16, 20121 Milan<br />WHEN: From 9:00 to 17:30 (last entry at 17:00)<br />WEBSITE: <a
+      href="http://www.gam-milano.com/en/home/">www.gam-milano.com</a></p>
+  <p>The Gallery of Modern Art (also known as GAM) is one of Milan&rsquo;s most important art galleries, located in the
+    majestic Villa Reale, a sumptuous palazzo where Napoleon once resided. The gallery is filled with works by Lombards
+    and other Italian painters like Modigliani and Boccioni plus familiar works by non-Italian modernists such as
+    Gauguin, Cézanne, Picasso, Van Gogh and Manet.</p>
+  <p>The upper floors of the museum house the equestrian works of 20th Century sculptor Marino Marini. At the rear of
+    the villa there is a charming garden which provides a natural landscape where you can sit calmly and enjoy a
+    peaceful relaxing moment away from the hectic pace of Milan life. Within the grounds there is also a small but
+    delightful &ldquo;botanical garden&rdquo; with many shrubs and herbaceous plants to wander through.</p>&nbsp;<h2
+    id="museo-astronomico-di-brera-the-astronomical-museum-of-brera">Museo Astronomico di Brera (the Astronomical Museum
+    of Brera)</h2>
+  <p><img alt="j.jpg" class="center"
+      src="https://storage.googleapis.com/slite-api-files-production/files/00b1e2b3-a31e-417e-8661-b74c8a26c870/j.jpg" /><br />WHERE:
+    via Brera 28, 20121 Milan<br />WHEN: from 9:00 to 16:30<br />WEBSITE: <a
+      href="http://museoastronomico.brera.inaf.it/en/">http://museoastronomico.brera.inaf.it/en/</a></p>
+  <p>Every second Sunday of the month it will be possible to visit the Observatory&rsquo;s Gallery of ancient
+    instruments for free.</p>
+  <p>The Astronomical Museum of Brera is located in Palazzo Brera, in the heart of Milan, in the historic seat of the
+    Astronomical Observatory, the oldest scientific research institute of the city. The museum displays the astronomical
+    instruments used by the astronomers in Brera since the 18th century, together with scientific instruments from
+    historical collection of the University.</p>&nbsp;<h2 id="list-of-museums-always-with-ufree-admissionu-in-milan">
+    List of museums always with <u>Free Admission</u> in Milan</h2>
+  <ul>
+    <li><a href="https://www.casadelmanzoni.it/?language=en">Casa Manzoni</a>: Via Gerolamo Morone 1 &ndash; History
+    </li>
+    <li><a href="http://www.fondazioneboschidistefano.it/ws/en/">Casa Museo Boschi di Stefano</a>: Via Giorgio Jan 15 -
+      Art</li>
+    <li><a href="https://pirellihangarbicocca.org/en/">HangarBicocca</a>: Via Chiese 2 &ndash; Art</li>
+    <li><a href="http://www.museodelrisorgimento.mi.it/">Museo Del Risorgimento</a>: Via Borgonuovo 23 &ndash; History
+    </li>
+    <li><a href="https://www.mudec.it/eng/">Museo Delle Culture</a> (MUDEC): Via Tortona 56 &ndash; Themed Exhibitions
+    </li>
+    <li><a href="http://www.iltrivulzio.it/chi-siamo/museo-martinitt-stelline">Museo Martinitt e Stelline</a>: Corso
+      Magenta 57 &ndash; History</li>
+    <li><a href="http://www.fondazionemessina.it/">Museo Studio Francesco Messina</a>: Via San Sisto 4 &ndash; Art</li>
+    <li><a href="http://www.costumemodaimmagine.mi.it/it/home/">Palazzo Morando</a>: Via Sant&rsquo;Andrea 6 &ndash; Art
+    </li>
+  </ul>
+  <p>&nbsp;</p>
+  <h2 id="list-of-most-worthy-museums-uwith-chargeu">List of most worthy museums <u>With Charge</u></h2>
+  <ul>
+    <li><a href="https://www.museoscienza.org/en">Museo della Scienza e della Tecnologia</a>; Via San Vittore 10;
+      &euro;10.00; &ndash; Science</li>
+    <li><a href="https://lofficina.eu/">Planetario</a><a href="https://lofficina.eu/"> Civico</a>; Corso Venezia 57;
+      &euro;5.00; &ndash; Science</li>
+    <li><a href="https://www.ambrosiana.it/en/">Pinacoteca Ambrosiana</a>; Piazzia Pio XI 2; &euro;15.00;&ndash; Art
+    </li>
+    <li><a href="https://www.triennale.org/en/">Triennale di Milano</a>; Viale Alemagna 6; &euro;8.50; &ndash; Art</li>
+    <li><a href="http://www.fondazioneprada.org/?lang=en">Fondazione Prada</a>; Largo Isarco 2; &euro;10.00-15.00;
+      &ndash; Art</li>
+  </ul> &nbsp;<h2 id="useful-info---cards">Useful info - Cards</h2>
+  <ul>
+    <li><a href="https://lombardia.abbonamentomusei.it/">Musei Lombardia Milano</a>: allows admission to all the Civic
+      Museums for one year, it is valid for one year from the date of issue and it is on sale on line (without costs
+      presale) and the ticket offices of the Civic Museums. &euro;45.00 (&euro;32.00 if &lt;26 years old);</li>
+    <li><a href="https://lombardia.abbonamentomusei.it/News/500-1-PROMOZIONE-SPECIALE-FORMULA-EXTRA">Abbonamento Musei
+        Formula Extra</a>: allows admission to 300 Museums in Lombardia and Piemonte for one year. &euro;87 Eur
+      (&euro;62 if &lt; 26 years old).</li>
+  </ul><br /><br /><br />&nbsp;<h1 id="tips--tricks">Tips &amp; Tricks</h1>
+  <p><img alt="image.png"
+      src="https://storage.googleapis.com/slite-api-files-production/files/4df0c15b-cef8-411f-bd9e-7e054782e7b1/image.png" />
+  </p>
+  <h2 id="weather">Weather</h2>
+  <p>Moving to another country means facing completely different conditions than what you&rsquo;re used to.</p>
+  <p>Let&rsquo;s start from the weather.</p>
+  <p>Italy is famous to be a warm and sunny country, which is true, but don&rsquo;t forget Milan is in the North and
+    close to the mountains.</p>
+  <p>Autumn and winter are usually rainy seasons and it snows really few times. It&rsquo;s usually cold, between 9&deg;
+    and 15&deg; degrees Celsius in autumn and 0&deg; and 10&deg; degrees Celsius in winter.</p>
+  <p>On the other side we have spring and summer. Still some rains during the first months of spring, but the
+    temperature starts to raise, and sun and warm from May on. Summer can be really hot and humid, from the middle of
+    June to the end of September, with temperatures usually from 25&deg; to 35&deg; degrees Celsius. There may be some
+    storms, but they usually last few minutes and then the sun comes out again.</p>
+  <p>For autumn and spring in particular, which are the middle seasons, we suggest what we call &ldquo;onion
+    clothes&rdquo;: always wear different strata of clothes so you can catch up with the changes in temperature and
+    weather during the day!</p>&nbsp;<h2 id="currency">Currency</h2>
+  <p>Regarding the currency, Italy is one of the 19 countries of the Eurozone.</p>
+  <p>Milan is one of the most advanced cities of Italy, so you won&rsquo;t have problems paying by card, any App for the
+    mobile, or any new type of payment mode. However, in smaller cities or villages around Italy, they may not have all
+    those systems, which will require payment by cash. We suggest, anyway, to always have 10/20 euros cash with you for
+    any inconvenience!</p>
+  <p>Mostly when you go out with a group of people, some pubs or restaurants in Italy don&rsquo;t let you pay for your
+    consumption, but they make a single check. It&rsquo;s an Italian custom to pay &ldquo;allaromana&rdquo; (lit. Roman
+    way), which means the final check equally divided per the number of participants.</p>&nbsp;<h2 id="milanese-people">
+    Milanese people</h2>
+  <p>Milan is known to be a very dynamic and lively city. People moving really fast around the streets to get to work or
+    university is the normality, try not to interrupt their rush</p>
+  <p>On the escalators, for instance, stand always only on the right side, so that people who have to run can pass on
+    the left!</p>&nbsp;<h2 id="language">Language</h2>
+  <p>Italian language could seem difficult, but don&rsquo;t worry, in a short time you will learn it! For your very
+    first days in Italy, here some basics of the language:</p>
+  <ul>
+    <li>Ciao = Hello</li>
+    <li>Come stai? = How are you?</li>
+    <li>Bungiorno = Good morning</li>
+    <li>Buonasera = Good evening</li>
+    <li>Grazie = Thank you</li>
+    <li>Prego = You&rsquo;re welcome</li>
+    <li>Per favore = Please</li>
+    <li>Mi chiamo &hellip; = My name is &hellip;</li>
+    <li>Sinistra = Left</li>
+    <li>Destra = Right</li>
+    <li>Vorrei un caffè, perfavore = I would like an espresso, please (when you order coffee in Italy, it automatically
+      means espresso)</li>
+    <li>Io vengo da&hellip; = I come from&hellip;</li>
+  </ul>&nbsp;<h2 id="italian-festivity">Italian Festivity</h2>
+  <ul>
+    <li>Capodanno - New Year&rsquo;s Eve: 1st January</li>
+    <li>Epifania/Befana: 6th January</li>
+    <li>Pasqua/Easter: 12th April</li>
+    <li>Lunedìdell&rsquo;Angelo/Pasquetta: 13th April</li>
+    <li>AnniversariodellaLiberazione &ndash; Liberation anniversary: 25th April</li>
+    <li>Festa del lavoro &ndash;Labour day: 1st May</li>
+    <li>Festa della Repubblica &ndash; Republic Day: 2nd June</li>
+    <li>Ferragosto o Assunzione: 15th August</li>
+    <li>Tuttii Santi (Ognissanti): 1st November</li>
+    <li>Milan&rsquo;s Patron Saint&rsquo;s Day (San&rsquo;tAmbrogio): 7th December</li>
+    <li>Immacolata Concezione: 8th December</li>
+    <li>Natale/Christmas: 25th December</li>
+    <li>Santo Stefano &ndash; Saint Stefano: 26th December</li>
+  </ul><br /><br /><br />&nbsp;<h1 id="contacts">Contacts</h1>
+  <p><img alt="image.png"
+      src="https://storage.googleapis.com/slite-api-files-production/files/82508b2d-ae83-4ede-abcd-7af4d6c5dbeb/image.png" />
+  </p>
+  <p><a href="mailto:esn@unimi.it">esn@unimi.it</a></p>
+  <p>Milan | ESN Milano Statale<br />Via Festa del Perdono 7, 20122 Milano</p>
+  <p><a href="https://milanostatale.esn.it/">https://milanostatale.esn.it/</a></p>
+</div>
